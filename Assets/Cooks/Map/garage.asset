@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2e547a4c7574a10a3a6dc649e882f2, type: 3}
+  m_Name: garage
+  m_EditorClassIdentifier: 
+  SceneObjectReferences:
+  - {fileID: 199558, guid: a3f8ea00e16966246b80e00dfa196ee8, type: 2}
+  - {fileID: 167042, guid: ddc07a55c6827ea479907437b00ceedd, type: 2}
+  - {fileID: 184118, guid: df36a592004e6af4c842c9ddff80f196, type: 2}
+  - {fileID: 192402, guid: ef7ecab43769ef445a1e96c2bc31521b, type: 2}
+  - {fileID: 104300, guid: f6ee2cf5c9422c94c94d1a188287c886, type: 2}
+  - {fileID: 108952, guid: 6ede9f578d7858247aa574199cbb29b8, type: 2}
+  - {fileID: 191550, guid: 218d4ca32336f9a448f8020e3b14e590, type: 2}
+  - {fileID: 139386, guid: 250e3fc9228050e4cbaf878b517b06c5, type: 2}
+  - {fileID: 192712, guid: 5d3f74f407ff98842be67e50e16b52b3, type: 2}
+  - {fileID: 180204, guid: c187b0aa8b5755048b5ef73846f26a5d, type: 2}
+  - {fileID: 169422, guid: 4adc3f0d2c8c8bb41b6681376f2cef33, type: 2}
+  - {fileID: 127306, guid: 864cf434f70ca9940b9cacc00e5a3e9b, type: 2}
+  - {fileID: 196726, guid: d7ede30a882da0643867072c707d444f, type: 2}
+  - {fileID: 175006, guid: 4d6b3ffbb4069af438433db4603b0791, type: 2}
+  - {fileID: 182884, guid: 8d5c7e80f6959a141b7514682a38a3df, type: 2}
+  - {fileID: 199166, guid: 02c46f714e824314eb12cd4c48d4dc31, type: 2}
+  - {fileID: 145866, guid: e6c3699f3585385419888aab6038cc67, type: 2}
+  - {fileID: 122006, guid: fd1f9fdbc7d77464a8fa9e6c16593676, type: 2}
+  - {fileID: 100284, guid: 7b22819bf5352384083dcc5909be938b, type: 2}
+  - {fileID: 160030, guid: 38db705f8ebd8084eb88e0cd07a9bcab, type: 2}

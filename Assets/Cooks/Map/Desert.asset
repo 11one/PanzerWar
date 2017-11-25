@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2e547a4c7574a10a3a6dc649e882f2, type: 3}
+  m_Name: Desert
+  m_EditorClassIdentifier: 
+  SceneObjectReferences:
+  - {fileID: 100002, guid: e72546c2228c1eb4d96ee85b37e82c95, type: 2}
+  - {fileID: 100002, guid: 373ffda21a79ea44d8bd368013e61c1e, type: 2}
+  - {fileID: 100000, guid: acea572a5a518c043bdead9b048cbf4c, type: 2}
+  - {fileID: 100000, guid: 23825054ac61df04d8cfcee6ab9d6d04, type: 2}
+  - {fileID: 100000, guid: ae2b2278f9ae5d64e853284456c9015b, type: 2}
+  - {fileID: 100026, guid: 94b8bf3a48c5c4992862ca56f8f2df15, type: 2}
+  - {fileID: 100000, guid: 74bf203cfb9861f47835c1e7f27b3a93, type: 2}
+  - {fileID: 199558, guid: a3f8ea00e16966246b80e00dfa196ee8, type: 2}
+  - {fileID: 100002, guid: a6d1c80d9724a0744b2ff95605d05c4a, type: 2}
+  - {fileID: 196726, guid: d7ede30a882da0643867072c707d444f, type: 2}
+  - {fileID: 100002, guid: 17f2152ae842f61469640910eb2b9b2d, type: 2}
+  - {fileID: 100000, guid: 7d8a5495c9e359e42b881c39dd77c120, type: 2}
+  - {fileID: 122006, guid: fd1f9fdbc7d77464a8fa9e6c16593676, type: 2}
+  - {fileID: 192402, guid: ef7ecab43769ef445a1e96c2bc31521b, type: 2}
+  - {fileID: 184118, guid: df36a592004e6af4c842c9ddff80f196, type: 2}
+  - {fileID: 163464, guid: f33e32c5fc346594386bf5c5105812c8, type: 2}
+  - {fileID: 199166, guid: 02c46f714e824314eb12cd4c48d4dc31, type: 2}
+  - {fileID: 191550, guid: 218d4ca32336f9a448f8020e3b14e590, type: 2}
+  - {fileID: 100000, guid: 25df2248b3e9bbd46b36948150080177, type: 2}
+  - {fileID: 100000, guid: 4a50c1fccaa722a4da994ac1e2d4efc0, type: 2}
+  - {fileID: 145866, guid: e6c3699f3585385419888aab6038cc67, type: 2}
+  - {fileID: 100284, guid: 7b22819bf5352384083dcc5909be938b, type: 2}

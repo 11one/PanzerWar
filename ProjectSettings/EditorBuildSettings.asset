@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Res/ArtPackage/Sence/StartUp/StartUp.unity
+    guid: 94d7001086e0d3e42a72bfc605d34d1a
+  - enabled: 1
+    path: Assets/Res/ArtPackage/Sence/Login/Login.unity
+    guid: 1bbfea14fb2cb5248a3a3a7038c49309
+  - enabled: 1
+    path: Assets/Res/ArtPackage/Sence/PoolScene/PoolScene.unity
+    guid: d58a128113499de40842cbfa6c9ff0cc
+  - enabled: 1
+    path: Assets/Res/ArtPackage/Sence/LoadScenePreparation.unity
+    guid: d7f8e99f5faceb54b9ce4f333f26d009
+  - enabled: 1
+    path: Assets/Res/Cooked/Scene/garage_Cooked.unity
+    guid: 24c1e2d06a7aaa24d9d77c1fd78dd71d
+  - enabled: 1
+    path: Assets/Res/Cooked/Scene/Desert_Cooked.unity
+    guid: de8f632ca2a9f464397aa5b80339c5a3
+  - enabled: 1
+    path: Assets/Res/ArtPackage/Sence/ClientOffline.unity
+    guid: 081541fa3a5e99f43b56438d0f897a5c

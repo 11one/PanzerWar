@@ -1,0 +1,329 @@
+#/登陆界面
+Login  = Login
+SignUp = SignUp
+Exit = Exit
+Logo = Panzer War
+SelectService = Server
+CN = CN
+US = US
+SelectLanguage = Select Language
+SignUpInputAccount = Please Input Account
+SignUpInputEmail = Please Input E-mail
+SignUpInputGameName =  Please Input NickName
+SignUpInputPassword =   Please Input Password
+EmailPolicy=Email Policy:We collect your E-mail to help you find your password when you forget your password.
+SignUpAccountText=Account
+SignUpGameNameText=NickName
+SignUpPassword=Password
+SignUpEmail=E-mail
+Next =  Next
+Return = Return
+LoginClick = Click screen to play!
+GamePolicy = By loggin in,you accept the rules of the game as well as the conditions of end user license agreement.Click to view our license agreement.
+AlphaTest = Released
+SettingWarning =  [Important]lt is necessary for you to reset game setting to have a better gaming experience.  
+ThirdPartLogin = Social
+SwipeDownForMore = Swipe to read more!
+ThirdPartEmailText=Input your e-mail,and then you can play the game!
+ThirdPartEmailPlacehold=Input your E-mail!
+ThirdPartEmailSend=Register!
+Account = Account:
+Password = Password:
+Offline=Offline Mode
+NotConnectServers = Finding Servers...Please wait for a moment!
+#/登陆界面完毕
+#/
+#/设置界面
+GameSettingTitle = Setting
+Shader = Shader
+NormalShader = Classic
+AdvanceShader = Advance
+CartoonShader = Cartoon
+TextureQuality = Texture Quality：
+ShadowQuality = Shadow Quality：
+ShadowDistance = Shadow Distance：
+AdvanceTrack = Advance Track
+ImageEffect = ImageEffect
+Antialiasing = Antialiasing
+RayGod = RayGod
+Debugger =Enable Debug Log
+CustomUI = Customize UI
+BGMDuringBattle = Close BGM
+NoTexture = No
+VeryLow = Very Low
+Low = Low
+Middle = Middle
+High = High
+Resoulution =Screen Solution
+Graphics = Graphics
+Control = Control
+Other = Other
+ControlType = Control Type
+CameraSpeed = Camera Speed
+CameraInZoomSpeed = Camera In Zoom Speed
+MobileOtherControl = Mobile Platform(Android, WSAPlayerARM,IPhonePlayer) use other devices(Xbox Joystick) to control.
+AutoDrive = Auto-Drive(The tank will be rotated automatically by following camera direction)
+AutoDriveGround=Auto-Drive active when spining around
+CameraJoyStick=Enable Camera Joystick
+ControlSettingTip = The setting wont work until you reboot the game!
+EnableSaveZoom = Save Zoom
+SettingComfrim = Comfirm
+SettingCancel = Cancel
+SettingApply = Apply
+#/设置界面完毕
+#/车库界面
+StartBattle = Start Battle
+TechTree = Tech Tree
+BattleLog = Battle Log
+Custom = Custom Camouflage
+Task = Task
+TaskAvailable = New Task Available
+Muilt = MuiltPlayers
+Achive = Personal Achivements
+DestroyTankCount = Destroy Tank Count:
+AllHits = All Damage Cause:
+Rank =National Tier
+ServerPlayerCount = Player Online:
+Ping = Net Ping:
+SettingButton = Setting
+Experience = EXP:
+Experienced = Experienced!
+AdBouns = Bouns
+ArmorType = Armor Type:
+Armor= Armor:
+OnlineShop=Online Shop
+#/车库界面完毕
+#/个人任务
+NewYear502  = Roll out for your T-50-2!
+ByDestroyTank = Reward By Destroy Tank.
+NewYearReward502 = Reward T-50-2!
+FinishTask = You have finish the task.
+Reward = Task Reward:
+pw_Title = Tasks & Activities
+#/个人任务完毕
+#/小设置菜单
+sm_Title = Setting
+sm_ExitGame = Exit Game
+sm_Disconncet = Disconnect
+sm_Setting = Setting
+sm_Bottom = Panzer War - Released
+#/小设置菜单完毕
+#/
+#/坦克名字本地汉化
+Pz38t =PzKpfw 38(t)
+Pz38t_Late =PzKpfw 38(t) Late
+PzIII_Ausf_J = PzKpfw.III Ausf J
+Pz_IV_AusfH =  PzKpfw.IV Ausf H 
+JagdPanther =Jagd Panther
+Panther1 = PzKpfw V 
+PzVI_Tiger_I = PzKpfw VI 
+PzVIB_Tiger_II = PzKpfw VII 
+Ferdinand= Ferdinand
+E-79= E-79 
+JagdTiger= Jagd Tiger
+Sturmtiger = Sturm Tiger 
+JagdPz_E100= Jagd PzKpfw E100
+Maus = Maus
+Leopard1 = Leopard 1
+T26_E4_SuperPershing =SuperPershing
+M4_Sherman = Sherman
+T-50-2 = T-50-2 
+KV =КВ
+KV2 = КВ-2
+T-34-85 = T-34-85 
+IS-2 = ИС-2
+IS-3 = ИС-3
+IS_7 = ИС-7
+T-44 = T-44 
+T-54 =T-54 
+T-26 = T-26 
+T-72 =T-72 
+T-80BV =T-80BV 
+Type59D =Type-59 D型
+Type59A1 =Type-59 Advance型
+WZ-111-5A = WZ-111 Model-5A
+Type99 = Type99
+Cruiser_Mk_I = Cruiser Mk.I
+Cromwell = Cromwell
+Sherman_Firefly =Firefly
+Conqueror = Conqueror
+Centurion_Mk3 = Centurion(Mk5)
+FV215b_183 = FV215 (B)(183)
+FV4202_120 = FV4202(120)
+Challenger = Challenger 2
+M61A5 = M61A5
+i_185_m_82a = И-185(М-82а)
+Bat_Chatillon155_58 = Bat Chatillon 155 58
+#/坦克名字本地汉化
+#/好友系统
+FriendName = NickName:
+FriendInRoom = Player is in the room.
+FriendNotInRoom = Player is in the lobby.
+FriendNotOnline = Player is not online.
+FriendList = Friends
+SearchFriend = Serach
+FriendPatton=Patton
+FriendRival=Rival
+FriendAddAsFriend=Add
+#/好友系统完毕
+#/Wechat
+WechatTitle =  Subscribe our official account.
+WechatAccept = Understood,l will follow.
+#/完毕
+#/二次元
+CartoonTitle = Cartoon Client
+CartoonRefuse = Refuse
+CartoonAccept = Accept
+#/二次元完毕
+#/自定义地图
+CustomMap = [Local-WrokShop]
+WorkShop =[Cloud-WrokShop]
+WorkShopInstalled =[Installed]
+WorkShopRestart = Reboot game to finish installing.
+WorkShopInProcessing =[In Processing Map]
+WorkShopAD = Click to view SDK
+Description = Description:
+WorkShopInstalledWarning = You have installed the map. Click label with [Local-WrokShop] to enter the scene!
+#/自定义地图完毕
+#/玩家坦克UI
+CountDown = Left:
+GunAngle= GA:
+FireAngle =  FA:
+Distance = D:
+DamperPerHundredMeters = Fall/100m:
+GunDir = GD:
+#/玩家坦克UI
+#Info
+InfoOfflineTitle = Offline Mode
+InfoOfflineDescription = Description:You can play this game with out Net. 
+InfoOfflineButtom = Click to open!
+InfoWechat = None.
+InfoBuluo = None.
+#/Info完毕	
+#/科技树
+SellMoneyCoin=Coin:
+SellMoneyGold=Gold:
+NotHave=You have to have:
+NotExperienced=Not Experienced:
+AwardVehicle =Not Available!
+NationLevel=Require nation level:
+PurchaseSuccess=Purchase Success
+PurchaseFailed=Purchase Failed
+#/科技树完毕
+#/HitBox
+HitBoxNoDamage = No Damage!
+HitBoxNotBreakDown = Not Break Down!
+HitBoxRicochet = Ricochet!
+#/End HitBox
+#AD
+ADFailed = AD failed Check network connection please!
+BounsADFailed =Bouns AD failed Check network connection please!
+#EndAD
+#/Tips
+Tips01 = To reach the best game performance,you should play the game in front of the airconditioner!
+Tips02 = To reach the best game performance,you should play the game in front of the airconditioner!
+Tips03 = To reach the best game performance,you should play the game in front of the airconditioner!
+Tips04 = To reach the best game performance,you should play the game in front of the airconditioner!
+Tips05 = To reach the best game performance,you should play the game in front of the airconditioner!
+LoadingEncourage = The game is just developed by a Senior high school student!
+#/Tips完毕
+#Client
+RoomType=Type:
+RoomRank=Tier:
+RoomPlayerNumber=Count
+RoomName=Name:
+#/ClientEnd
+#BattleLog
+APInfoDamage=AP Damage:
+APInfoPenetration=AP Penetration:
+APCRInfoDamage=APCR Damage：
+APCRInfoPenetration=APCR Penetration:
+HEInfoDamage=HE Damage:
+HEInfoPenetration=HE Penetration:
+ClickToJoin=Join
+AmmoPanel=Ammo
+SendComment=Send(Enter)
+DisConnect = DisConnect!
+BattleLogMap=Map:
+BattleLogDate=Date:
+BattleLogExp=Exp：
+BattleLogCoin=Coin：
+BattleLogShare=Share to friends:
+#/BattleLogEnd
+#Key
+KeySettingEvent=Event:
+KeySettingPrimaryKey=Primary:
+KeySettingSecondKey=Second:
+KeySettingInput=Press key!
+#/Key
+#Skin
+SkinSummer=Summer
+SkinDesert=Desert
+SkinWinter=Winter
+SkinMenuTitle=Skin
+SkinConfirm=Confirm
+SkinConfirmButton=Purchase!
+#/SkinEnd
+#/NewPlayer
+NewPlayerTitle = New player tips!
+NewPlayerTip = If it is your first time to play Third-View tank game or you are poor at the scene of direction,we recommend you to use auto-drive #"(The tank will be rotated automatically by following camera direction)".Of course,you can switch it off in later game experiencing.
+NewPlayerTip02= Tip:You can customize button positions and screen sensitivity.
+NewPlayerRefuse=No Thanks!
+NewPlayerAccept=Switch it on please!
+#/NewPlayerEnd
+#/GameCenter
+StandardLogin = Login By Account
+#/GameCenter完毕
+#/IAPVerify
+InitiatePurchase = Initiate Purchasing...
+IAPVerify = Paid,Verifying Receipt...
+IAPVerifyPassed = Verify Passed，Sync good...
+IAPVerifyFailed = Verify Failed,Reason: 
+Buy = Purchase
+IAPHasGood = You have the good so you can't purchase!
+Restore = Resotre
+com.shanghaiwindy.Waroftanks.vehicleT26E4=The T26E4 SuperPershing is an American tier 8 premium medium tank.  The spaced frontal armor makes facing one of these from the front an exercise in frustration.
+com.shanghaiwindy.Waroftanks.Coin300W=Get 3,000,000 coin,you can use coin to buy coin tanks.
+com.shanghaiwindy.Waroftanks.vehiclet343=The T-34-3 is a Chinese tier 8 premium medium tank.  Equipped with 122MM gun,excellent speed and good armor,it is an arrow in any kind of tank battles.
+com.shanghaiwindy.Waroftanks.vehicleBatChatillon15558=Bat Chatillon 155 58 is a French tier 8 premium SPG.Equipped with 155mm with a 5 shell mag，it is a powerful killing machine.Scheming in the commander's tent, win a battle a thousand miles away.
+#/IAPVerify完毕
+#/事件层
+Event_Capture=We are capturing neutral  base!
+Event_Restore=We are restore shells
+Event_Repair=We are reparing
+Event_Message=New Message Income
+EnableBattleMessage = Enable battle message notifications
+#/事件层完毕
+#/GameNetwork
+InvalidRoom = Invalid Version You may need upgrade game!
+SelectVehicle= Please select your vehicle first!
+GameNetworkCreateRoom=Create
+GameNetworkRefresh=Refresh
+RequestRoom = Requeset Room Please wait! Server always needs up to 20 seconds to call back.
+TeamA = Team A
+TeamB = Team B
+NoAmmoSelected = No Ammo Selected
+#/GameNetwork完毕
+#/离线模式
+OffflineAD = When you are tired to play,why not watch a ad video to support game developing!
+OfflineSetPreset = Set Preset
+OfflineBattleLog =Battle Log
+#/离线模式完毕
+#/Preset Online&Offline
+RoomLabelOffline = Name:
+PresetName = Name
+PresetRank= Tier
+PresetRankLerp = Tier Lerp
+PresetMap = Map
+CreatePreset =Create
+CancelPreset =Cancel
+TeamACount =Team A
+TeamBCount =Team B
+BattleTime=Time
+BattleType=Type
+TeamSelection = Team
+AIDifficulty = Difficulty
+#/Rreset完毕
+VehicleRoll=Vehicle roll over.  And after {0}/30 seconds your vehicle will be destroyed
+GoRound = Play Again
+GoGarage = Go Garage

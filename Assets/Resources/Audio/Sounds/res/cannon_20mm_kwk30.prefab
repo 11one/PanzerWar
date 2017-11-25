@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &101572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 442452}
+  - component: {fileID: 11495288}
+  m_Layer: 0
+  m_Name: cannon_20mm_kwk30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442452
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11495288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df14fcef6b26b347beea26cad8a0267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CannonShot: {fileID: 8300000, guid: f2578d04033c07640b25dc478231c05c, type: 3}
+  CannonShot_Far: {fileID: 8300000, guid: f2578d04033c07640b25dc478231c05c, type: 3}
+  CannonShot_ACurve:
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -0.0125
+      tangentMode: 0
+    - time: 80
+      value: 0
+      inSlope: -0.0125
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CannonShot_Far_ACurve:
+    m_Curve:
+    - time: 100.14166
+      value: 0.12493651
+      inSlope: -0.00013500333
+      outSlope: -0.00013500333
+      tangentMode: 0
+    - time: 353.34967
+      value: 0.08301526
+      inSlope: -0.0004830349
+      outSlope: -0.0004830349
+      tangentMode: 0
+    - time: 443.35275
+      value: 0.039473496
+      inSlope: -0.00020671035
+      outSlope: -0.00020671035
+      tangentMode: 0
+    - time: 500
+      value: 0
+      inSlope: -0.0023809525
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: CannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: f2578d04033c07640b25dc478231c05c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: CannonShot_Far
+      value: 
+      objectReference: {fileID: 8300000, guid: f2578d04033c07640b25dc478231c05c, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 101572}
+  m_IsPrefabParent: 1

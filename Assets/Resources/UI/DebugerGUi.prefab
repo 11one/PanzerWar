@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4590087221932338}
+  m_Layer: 0
+  m_Name: DebugerGUi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 9999
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 146812}
+  m_IsPrefabParent: 1
+--- !u!1 &1020484565500116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4902707806380928}
+  - component: {fileID: 114831106222454854}
+  m_Layer: 0
+  m_Name: KGFDebugGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1375511136488994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4101245024500030}
+  - component: {fileID: 114974201072402610}
+  m_Layer: 0
+  m_Name: KGFDebugFile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1542240331784286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4600479861190510}
+  - component: {fileID: 114160833487216660}
+  m_Layer: 0
+  m_Name: KGFDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101245024500030
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375511136488994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -639.8103, y: -367.47397, z: -4.2491198}
+  m_LocalScale: {x: 1.243926, y: 1.243926, z: 1.243926}
+  m_Children: []
+  m_Father: {fileID: 4590087221932338}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4590087221932338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4600479861190510}
+  - {fileID: 4101245024500030}
+  - {fileID: 4902707806380928}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4600479861190510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542240331784286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -639.99994, y: -399.9222, z: 0}
+  m_LocalScale: {x: 1.243926, y: 1.243926, z: 1.243926}
+  m_Children: []
+  m_Father: {fileID: 4590087221932338}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4902707806380928
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020484565500116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -639.99994, y: -399.9222, z: 0}
+  m_LocalScale: {x: 1.243926, y: 1.243926, z: 1.243926}
+  m_Children: []
+  m_Father: {fileID: 4590087221932338}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114160833487216660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542240331784286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c86f2f77a29f4f4c87793ed96b80e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itsDataModuleDebugger:
+    itsIconModule: {fileID: 2800000, guid: 5f4b5d8a605bbc445bc6d96d9abe3fe6, type: 3}
+    itsMinimumStackTraceLevel: 0
+--- !u!114 &114831106222454854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020484565500116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf2717efc3ea4094e908443136ceef3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itsDataModuleGUILogger:
+    itsMinimumLogLevel: 0
+    itsLogsPerPage: 25
+    itsMinimumExpandLogLevel: 6
+    itsColorDebug: {r: 0.7882353, g: 0.92156863, b: 0.92156863, a: 1}
+    itsColorInfo: {r: 0.5137255, g: 0.99607843, b: 0, a: 1}
+    itsColorWarning: {r: 0.99607843, g: 0.7294118, b: 0, a: 1}
+    itsColorError: {r: 0.99607843, g: 0.2, b: 0, a: 1}
+    itsColorFatal: {r: 0.5294118, g: 0.13333334, b: 0.5294118, a: 1}
+    itsIconDebug: {fileID: 2800000, guid: 7eed52b0a3f8134438c1feb7c19ddb51, type: 3}
+    itsIconInfo: {fileID: 2800000, guid: 54e337545e8e4da4b9b8ce1b09b7c743, type: 3}
+    itsIconWarning: {fileID: 2800000, guid: 711bd39339f7bed43bd498c128f37866, type: 3}
+    itsIconError: {fileID: 2800000, guid: 69748c7fad938634d985ca30c4e669f9, type: 3}
+    itsIconFatal: {fileID: 2800000, guid: f52707c603e09864cba8958e020ce6f2, type: 3}
+    itsIconHelp: {fileID: 2800000, guid: 2332ccf3d6a677c478864053ea92a7ed, type: 3}
+    itsIconLeft: {fileID: 2800000, guid: 29bc0fcb3d4ac254d95826251d4a921c, type: 3}
+    itsIconRight: {fileID: 2800000, guid: bb3c56c15d66a8b4c96f56c607a3f5f9, type: 3}
+    itsFPSUpdateInterval: 0.5
+    itsHideKeyModifier: 0
+    itsHideKey: 282
+    itsExpandKeyModifier: 308
+    itsExpandKey: 282
+    itsVisible: 1
+--- !u!114 &114974201072402610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375511136488994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453e78f570646743ba33bdf5dc44443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itsDataDebugFile:
+    itsMinimumLogLevel: 6
+    itsSeparator: 3b
+    itsFilePath: C:/Users/michal/Desktop/KGFLog.txt

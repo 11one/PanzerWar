@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 702673e2b9f9cc84b94533b1a070d0cf
+timeCreated: 1454579852
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 002400FF00
+    100002: 002400FF001
+    100004: 032403FF00
+    100006: 032403FF001
+    100008: Dummy001
+    100010: Dummy002
+    100012: Dummy003
+    100014: Dummy004
+    100016: Dummy005
+    100018: Dummy006
+    100020: Dummy007
+    100022: Dummy008
+    100024: Dummy009
+    100026: Dummy010
+    100028: Dummy011
+    100030: Dummy012
+    100032: Fanbu
+    100034: Fanbu001
+    100036: Fanbu002
+    100038: Fanbu003
+    100040: Fanbu004
+    100042: Gun
+    100044: LeftTrack
+    100046: LeftTrackBone
+    100048: LeftUpperWheel
+    100050: LeftUpperWheel00
+    100052: LeftUpperWheel01
+    100054: LeftUpperWheel02
+    100056: LeftUpperWheel03
+    100058: LeftUpperWheel04
+    100060: LeftWheel
+    100062: LeftWheel00
+    100064: LeftWheel01
+    100066: LeftWheel02
+    100068: LeftWheel03
+    100070: LeftWheel04
+    100072: LeftWheel05
+    100074: LeftWheelBone
+    100076: MainBody
+    100078: Oil
+    100080: Oil001
+    100082: Others
+    100084: RightTrack
+    100086: RightTrackBone
+    100088: RightUpperWheel
+    100090: RightUpperWheel00
+    100092: RightUpperWheel01
+    100094: RightUpperWheel02
+    100096: RightUpperWheel03
+    100098: RightUpperWheel04
+    100100: RightWheel
+    100102: RightWheel 1
+    100104: RightWheel 2
+    100106: RightWheel 3
+    100108: RightWheel 4
+    100110: RightWheel 5
+    100112: RightWheel 6
+    100114: RightWheelBone
+    100116: //RootNode
+    100118: Turret
+    100120: Weapon
+    400000: 002400FF00
+    400002: 002400FF001
+    400004: 032403FF00
+    400006: 032403FF001
+    400008: Dummy001
+    400010: Dummy002
+    400012: Dummy003
+    400014: Dummy004
+    400016: Dummy005
+    400018: Dummy006
+    400020: Dummy007
+    400022: Dummy008
+    400024: Dummy009
+    400026: Dummy010
+    400028: Dummy011
+    400030: Dummy012
+    400032: Fanbu
+    400034: Fanbu001
+    400036: Fanbu002
+    400038: Fanbu003
+    400040: Fanbu004
+    400042: Gun
+    400044: LeftTrack
+    400046: LeftTrackBone
+    400048: LeftUpperWheel
+    400050: LeftUpperWheel00
+    400052: LeftUpperWheel01
+    400054: LeftUpperWheel02
+    400056: LeftUpperWheel03
+    400058: LeftUpperWheel04
+    400060: LeftWheel
+    400062: LeftWheel00
+    400064: LeftWheel01
+    400066: LeftWheel02
+    400068: LeftWheel03
+    400070: LeftWheel04
+    400072: LeftWheel05
+    400074: LeftWheelBone
+    400076: MainBody
+    400078: Oil
+    400080: Oil001
+    400082: Others
+    400084: RightTrack
+    400086: RightTrackBone
+    400088: RightUpperWheel
+    400090: RightUpperWheel00
+    400092: RightUpperWheel01
+    400094: RightUpperWheel02
+    400096: RightUpperWheel03
+    400098: RightUpperWheel04
+    400100: RightWheel
+    400102: RightWheel 1
+    400104: RightWheel 2
+    400106: RightWheel 3
+    400108: RightWheel 4
+    400110: RightWheel 5
+    400112: RightWheel 6
+    400114: RightWheelBone
+    400116: //RootNode
+    400118: Turret
+    400120: Weapon
+    2300000: 002400FF00
+    2300002: 002400FF001
+    2300004: 032403FF00
+    2300006: 032403FF001
+    2300008: Fanbu
+    2300010: Fanbu001
+    2300012: Fanbu002
+    2300014: Fanbu003
+    2300016: Fanbu004
+    2300018: Gun
+    2300020: LeftUpperWheel00
+    2300022: LeftUpperWheel01
+    2300024: LeftUpperWheel02
+    2300026: LeftUpperWheel03
+    2300028: LeftUpperWheel04
+    2300030: LeftWheel00
+    2300032: LeftWheel01
+    2300034: LeftWheel02
+    2300036: LeftWheel03
+    2300038: LeftWheel04
+    2300040: LeftWheel05
+    2300042: MainBody
+    2300044: Oil
+    2300046: Oil001
+    2300048: RightUpperWheel00
+    2300050: RightUpperWheel01
+    2300052: RightUpperWheel02
+    2300054: RightUpperWheel03
+    2300056: RightUpperWheel04
+    2300058: RightWheel 1
+    2300060: RightWheel 2
+    2300062: RightWheel 3
+    2300064: RightWheel 4
+    2300066: RightWheel 5
+    2300068: RightWheel 6
+    2300070: Turret
+    2300072: Weapon
+    3300000: 002400FF00
+    3300002: 002400FF001
+    3300004: 032403FF00
+    3300006: 032403FF001
+    3300008: Fanbu
+    3300010: Fanbu001
+    3300012: Fanbu002
+    3300014: Fanbu003
+    3300016: Fanbu004
+    3300018: Gun
+    3300020: LeftUpperWheel00
+    3300022: LeftUpperWheel01
+    3300024: LeftUpperWheel02
+    3300026: LeftUpperWheel03
+    3300028: LeftUpperWheel04
+    3300030: LeftWheel00
+    3300032: LeftWheel01
+    3300034: LeftWheel02
+    3300036: LeftWheel03
+    3300038: LeftWheel04
+    3300040: LeftWheel05
+    3300042: MainBody
+    3300044: Oil
+    3300046: Oil001
+    3300048: RightUpperWheel00
+    3300050: RightUpperWheel01
+    3300052: RightUpperWheel02
+    3300054: RightUpperWheel03
+    3300056: RightUpperWheel04
+    3300058: RightWheel 1
+    3300060: RightWheel 2
+    3300062: RightWheel 3
+    3300064: RightWheel 4
+    3300066: RightWheel 5
+    3300068: RightWheel 6
+    3300070: Turret
+    3300072: Weapon
+    4300000: MainBody
+    4300002: Oil001
+    4300004: Oil
+    4300006: Fanbu002
+    4300008: Fanbu003
+    4300010: Fanbu004
+    4300012: Turret
+    4300014: Fanbu
+    4300016: Gun
+    4300018: Weapon
+    4300020: Fanbu001
+    4300022: LeftTrack
+    4300024: RightTrack
+    4300026: LeftWheel00
+    4300028: LeftWheel01
+    4300030: LeftWheel03
+    4300032: LeftWheel04
+    4300034: LeftWheel05
+    4300036: LeftWheel02
+    4300038: RightWheel
+    4300040: RightWheel
+    4300042: RightWheel
+    4300044: RightWheel
+    4300046: RightWheel
+    4300048: RightWheel
+    4300050: RightUpperWheel04
+    4300052: RightUpperWheel03
+    4300054: RightUpperWheel00
+    4300056: RightUpperWheel01
+    4300058: RightUpperWheel02
+    4300060: LeftUpperWheel04
+    4300062: LeftUpperWheel02
+    4300064: LeftUpperWheel01
+    4300066: LeftUpperWheel00
+    4300068: LeftUpperWheel03
+    4300070: 032403FF001
+    4300072: 032403FF00
+    4300074: 002400FF001
+    4300076: 002400FF00
+    9500000: //RootNode
+    13700000: LeftTrack
+    13700002: RightTrack
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

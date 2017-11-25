@@ -1,0 +1,14 @@
+﻿StartupClickToJoin=点击进入游戏
+BattleUIModuleTitle=载具
+BattleUIModuleSelectVehicle=选择车辆
+BattleUIModuleAmmunitionTitle=弹药配置
+BattleUIModuleAmmunitionCount=数量
+BattleUIModuleSetting=游戏设置
+BattleUIModuleExitGame=退出战局
+BattleUIModuleJoinBattle=加入战斗
+AmmoType=种类
+AmmoSpeed=速度
+AmmoDamage=伤害
+AmmoPenerate=穿深
+LoadingEffectTip=小部分内容参看部分历史，大部分内容已经为游戏性进行了改编。游戏仅供娱乐！！！
+RespawnCountDown=你的载具已经被击毁了咯！将在{0}秒后可以选择新的载具！

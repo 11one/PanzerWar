@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - HitBox
+  - Enemy
+  - Tank
+  - BirdPath
+  - mapsystem
+  - Terrain
+  - Seagull
+  - GunTransform
+  - MainCameraTarget
+  - Fire
+  - EngineSmoke
+  - PatorlPoint
+  - GameStartGUI
+  - TeamAStartPoint
+  - TeamBStartPoint
+  - LODMesh
+  - NotAllowBuild
+  - Turret
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Tank
+  - PlayerInFireCross
+  - Terrian
+  - Tree
+  - HitBox
+  - Player
+  - mapsystem
+  - TreeCollision
+  - Building
+  - TankCollider
+  - PTCLayer
+  - LocalVehicleCollider
+  - Ignore
+  - CollapseAnimationTrigger
+  - SPGIndicator
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HitBox
+    uniqueID: 1308069725
+    locked: 0

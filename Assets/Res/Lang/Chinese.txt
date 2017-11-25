@@ -1,0 +1,395 @@
+#/登陆界面
+Login  =  登陆
+SignUp = 注册
+Exit = 退出
+Logo = 小坦克大战
+SelectService = 服务器和延迟
+SelectLanguage = 选择语言
+SignUpInputAccount = 请输入账号
+SignUpInputGameName = 请输入昵称
+SignUpInputPassword =  请输入密码
+SignUpInputEmail=请输入邮箱
+EmailPolicy=邮箱隐私:我们使用邮箱,是帮助你未来忘记密码时候找回密码,我们会安全储存你的邮箱在我们的服务器。
+SignUpAccountText=账号
+SignUpGameNameText=昵称
+SignUpPassword=密码
+SignUpEmail=邮箱
+Next =  下一步
+Return = 返回
+LoginClick = 点击屏幕,开始游戏
+GamePolicy = 当你登陆游戏时候就表明你同意游戏的隐私策略,点击访问我们的隐私策略
+AlphaTest = 不稳定测试版本.
+VersionLog =Version:
+SettingWarning =  [重要]强烈建议在游戏操控或画面卡顿时候 修改游戏设置 点击上方扳手!
+ThirdPartLogin = 快捷登陆
+SwipeDownForMore = 下滑查看更多
+ThirdPartEmailText=你还剩下一步就可以用第三方账号登陆小坦克大战
+ThirdPartEmailPlacehold=请输入你的邮箱
+ThirdPartEmailSend=提交
+Account = 账号:
+Password = 密码:
+Offline=离线模式
+NotConnectServers = 正在寻找在线服务器中。。。 请稍等。⌛ ️
+#/登陆界面完毕
+#/
+#/设置界面
+GameSettingTitle = 游戏设置
+Shader = 图像:
+NormalShader = 标准
+AdvanceShader = 改进
+CartoonShader = 卡通
+TextureQuality = 纹理质量：
+ShadowQuality = 阴影质量：
+ShadowDistance = 阴影距离：
+AdvanceTrack = 开启细节化悬挂
+ImageEffect = 开启后期处理
+Antialiasing = 抗锯齿
+RayGod = 体积阳光
+Debugger = 调试模式[异常反馈使用]
+CustomUI = 自定义UI位置
+BGMDuringBattle = 关闭战斗音乐
+NoTexture = 无
+VeryLow = 超低
+Low = 低
+Middle = 中
+High = 高
+Resoulution = 清晰度
+Graphics = 图像
+Control = 控制
+Other = 其他
+ControlType = 控制方式
+CameraSpeed = 滑动灵敏度
+CameraInZoomSpeed = 开镜下滑动灵敏度
+MobileOtherControl = 使用外接设备作为操控(将关闭屏幕操控按钮)
+AutoDrive = 辅助驾驶(车辆移动时候将自动跟随镜头方向旋转)
+AutoDriveGround=原地旋转时候开启辅助驾驶
+CameraJoyStick=开启摄像机摇杆
+ControlSettingTip = 在进行游戏的时候修改的操控会在下次重生后生效!!!
+EnableSaveZoom = 开镜缩放数值保存
+SettingComfrim = 确定
+SettingCancel = 取消
+SettingApply = 应用
+#/设置界面完毕
+#/车库界面
+StartBattle = 开始战斗
+TechTree = 研发
+BattleLog = 战绩
+Custom = 自定义
+Task = 个人任务
+TaskAvailable = 新任务可用
+Muilt = 多人游戏
+Achive = 个人成就
+DestroyTankCount = 击毁坦克数量
+AllHits = 总伤害
+Rank =国家等级
+ServerPlayerCount = 在线人数:
+Ping = 延时
+SettingButton = 游戏设置
+Experience = 个体经验:
+Experienced = 精英体
+AdBouns = 广告奖励
+ArmorType = 装甲类型:
+Armor = 装甲数值:
+OnlineShop=在线商店
+#/车库界面完毕
+#/个人任务
+NewYear502  =T-50-2免费获取任务
+ByDestroyTank = 击毁坦克数量
+NewYearReward502 = 获得轻型坦克 T-50-2
+FinishTask = 已完成此任务
+Reward =任务奖励
+pw_Title = 任务与活动
+#/个人任务完毕
+#/小设置菜单
+sm_Title = 游戏设置
+sm_ExitGame = 退出游戏
+sm_Disconncet = 断开连接
+sm_Setting = 游戏设置
+sm_Bottom = 坦克战 -Alpha测试版本
+#/小设置菜单完毕
+Back = 返回
+Close = 关闭
+AmmoReloaded = 弹药已经补充完毕!
+CloseUI = 关闭UI
+OpenUI = 打开UI
+ScreenShotSaved = 已经保存游戏截图!
+CausedDamage = 造成伤害:
+HitArmor = 击中目标装甲:
+HitDegree = 击中角度:
+NotBreakDown = 击中目标 状态:未击穿!
+Ricochet = 击中目标 状态:跳弹!
+KillTank =击毁敌方坦克!
+KillTankInAll = 击毁坦克的数量:
+SelectAp =切换到穿甲弹!
+SelectHE =切换到高爆弹!
+SelectApcr =切换到硬芯穿甲!
+OnReloading = 正在装弹中!
+TruckDamge = 履带被击毁!
+AirSpeed = 飞行速度
+AirHeight = 飞行高度
+AttackAngle = 攻角
+LoseSpeed = 失速,即将坠机！
+AirCrash = 在撞击中失去,飞机气动完蛋了!
+VStabilizer = 水平尾翼
+RStabilator(Mirror) = 左水平尾翼
+RWingCenter(Mirror) = 左机翼中部
+RWingOuter(Mirror) = 左外机翼
+RWingCenter = 右机翼中部
+RStabilator = 右水平尾翼
+RWingOuter = 右外机翼
+VIP = 高级账号
+VIPRunout = 无高级账号 请充值!
+YouWin = 胜利,你的表现超神继续努力!
+YouLost = 败北.下次继续努力战胜对方！
+TargetOut = 你瞄准的目标在你的射界外!
+FirendFire = 警告:击中友军坦克:
+UnuseAutoAim = 取消自动瞄准
+UseAutoAim = 开启自动瞄准
+FindNoTarget = 未寻找到在视野内的敌方坦克
+Friend = 友军
+Enemy = 敌军
+#/玩家坦克UI
+CountDown = 倒计时:
+GunAngle= 当前炮管角度:
+FireAngle =  打击角度:
+Distance = 距离:
+DamperPerHundredMeters = 百米下坠:
+GunDir = 炮管指向:
+#/玩家坦克UI
+#/
+#/坦克名字本地汉化
+Pz38t =PzKpfw 38(t)
+Pz38t_Late =PzKpfw 38(t) 晚期型
+PzIII_Ausf_J = PzKpfw.III Ausf J型
+Pz_IV_AusfH =  PzKpfw.IV Ausf H 型
+JagdPanther =猎豹式驱逐战车
+Panther1 = PzKpfw V 豹式
+PzVI_Tiger_I = PzKpfw VI "虎"式
+PzVIB_Tiger_II = PzKpfw VII "虎"王
+Ferdinand= 斐迪南自行反坦克车
+E-79= E-79 中型坦克
+JagdTiger= 猎虎
+Sturmtiger = 突击虎
+JagdPz_E100= 火蜥蜴
+Maus = "鼠" 式
+Leopard1 = 豹1主战坦克
+w =超级潘兴
+M4_Sherman = 谢尔曼
+T-50-2 = T-50-2 轻型坦克
+KV = 科夫1型
+KV2 = 科夫2型
+T-34-85 = T-34-85 中型坦克
+IS-2 = 斯大林2型
+IS-3 = 斯大林3型
+IS_7 = 斯大林7型
+T-44 = T-44 中型坦克
+T-54 =T-54 中型坦克
+T-26 = T-26 轻型坦克
+T-72 =T-72 主战坦克
+T-80BV =T-80BV 主战坦克
+Type59D =59式 D型
+Type59A1 =59式 A1型
+T34_3 = T-34-3
+WZ-111-5A = WZ111重型坦克[5代原型车]
+Type99 = 99式
+Cruiser_Mk_I = 马克1巡洋坦克
+Cromwell = 克伦威尔巡洋坦克
+Sherman_Firefly =“萤火虫”中型坦克
+Conqueror = 征服者重型坦克
+Centurion_Mk3 = 百夫长 马克5型 中型坦克
+FV215b_183 = FV215 B型 183MM主炮反坦克
+FV4202_120 = FV4202 120MM主炮坦克
+Challenger = 挑战者2主战坦克
+M61A5 = 地球联军坦克
+i_185_m_82a = i-185(m-82a)
+Bat_Chatillon155_58 = Bat 155 58 自行火炮
+#/坦克名字本地汉化
+#/好友系统
+FriendName = 昵称:
+FriendInRoom = 此玩家正在房间内战斗
+FriendNotInRoom = 此玩家在大厅.
+FriendNotOnline = 此玩家不在线.
+FriendList = 好友
+SearchFriend = 搜索
+FriendPatton=组队
+FriendRival=对手
+FriendAddAsFriend=加为好友
+#/好友系统完毕
+#/Tips
+Tips01 = 温馨小贴士:对准对方的侧面与后部装甲射击,可有效提高击穿率！ 
+Tips02 = 温馨小贴士:当时 我就念了两句诗 就把对面吓跑了 苟利国家生死以 岂因祸福避趋之！
+Tips03 = 温馨小贴士:或许,你可以尝试尝试二次元卡通画风的游戏！可以在设置-画面 中选择卡通 启用卡通画风！
+Tips04 = 温馨小贴士:放在空调下冷却手机能提高游戏运行效率！
+Tips05 = 温馨小贴士:使用好友系统 与自己的好友一起并肩作战吧！
+LoadingEncourage = 游戏开发者为高三学生,有你的支持 游戏会更棒！
+#/Tips完毕
+#/Wechat
+WechatTitle = 微信公众号推荐
+WechatAccept = 好的
+WechatDescribe = 扫一扫二维码 关注我们的微信公众号: ShanghaiWindy
+#/完毕
+#/二次元
+CartoonTitle = 开启二次元卡通客户端
+CartoonRefuse = 残忍拒绝
+CartoonAccept = 欣然接受
+#/二次元完毕
+#/自定义地图
+CustomMap = [本地-创意工坊]
+WorkShop =[云-创意工坊]
+WorkShopInstalled =[已安装]
+WorkShopRestart = 请重启游戏,完成地图的安装!
+WorkShopInProcessing =[地图处理中]
+WorkShopAD = 你是否曾幻想着驾驭着坦克在自己所创造的世界中奔驰?而却又无奈自己没有能力写出核心底层。现在,小坦克大战 则能圆你的开发梦想,全新的自定义场景SDK 让你能创造这个战争世界的场景!点击我 查看文档 了解更多
+Description = 介绍:
+WorkShopInstalledWarning = 你已经安装此地图 请点击带[本地-创意工坊]的房间 进入场景! 若你要重下 请点前面的下载按钮!
+#/自定义地图完毕
+#/科技树
+SellMoneyCoin=银币:
+SellMoneyGold=金币:
+NotHave=需要研发:
+NotExperienced=需要精英:
+AwardVehicle = 活动车辆 无法购买
+NationLevel=国家等级:
+PurchaseSuccess=购买成功
+PurchaseFailed=购买失败 原因:
+#/科技树完毕
+#/HitBox
+HitBoxNoDamage= 无伤害
+HitBoxNotBreakDown= 未击穿
+HitBoxRicochet= 跳弹
+#/End HitBox
+#AD
+ADFailed = AD启动失败,请检查网络连接.
+BounsADFailed =奖励广告启动失败 无法获取奖励,请检查网络连接 重试!
+#EndAD
+#Client
+RoomType=种类：
+RoomRank=等级：
+RoomPlayerNumber=数量：
+RoomName=名称：
+#/ClientEnd
+#BattleLog
+APInfoDamage=穿甲弹伤害：
+APInfoPenetration=穿甲弹穿深：
+APCRInfoDamage=硬芯穿甲弹伤害：
+APCRInfoPenetration=硬芯穿甲弹穿深：
+HEInfoDamage=高爆弹伤害：
+HEInfoPenetration=高爆弹穿深：
+ClickToJoin=点击加入
+AmmoPanel=弹药配置
+DisConnect = 断开连接
+SendComment=发送（Enter）
+BattleLogMap=地图:
+BattleLogDate=日期:
+BattleLogExp=经验：
+BattleLogCoin=银币：
+BattleLogShare=分享自己的战绩给好友们
+#/BattleLogEnd
+#Key
+KeySettingEvent=事件:
+KeySettingPrimaryKey=主键:
+KeySettingSecondKey=次键:
+KeySettingInput=请按下按键!
+Forward=前进
+Back=后退
+Left=左转
+Right=右转
+MainGunFire=主炮
+MachineGun=机枪
+OpenFireCross=开镜
+IncreaseRPM=挂档
+DecreaseRPM=倒档
+CameraLeft=摄像机左
+CameraRight=摄像机右
+CameraUp=摄像机上
+CameraDown=摄像机下
+MouseScrollWheelUp=滚轮上
+MouseScrollWheelDown=滚轮下
+ToogleCamera=切换摄像机
+SelectAmmo1=选择弹药01
+SelectAmmo2=选择弹药02
+SelectAmmo3=选择弹药03
+AutoAim=辅助瞄准
+TurnLeft=尾翼左转
+TurnRight=尾翼右转
+Ignition=开启发动机
+Brake=手刹
+Landing=起落架
+Plus=加马力
+Minus=减马力
+#/KeyEnd
+#Skin
+SkinSummer=夏季
+SkinDesert=沙漠
+SkinWinter=冬季
+SkinMenuTitle=购买涂装
+SkinConfirm=确定购买
+SkinConfirmButton=确定
+#/SkinEnd
+#/NewPlayer
+NewPlayerTitle = 新手提醒~
+NewPlayerTip = 如果你是第一次尝试第三人称坦克对战游戏并且没有很强的方向感，我们建议你开启辅助驾驶。 #"开启辅助驾驶后你的坦克将会跟随你的镜头旋转"。稍后等你熟悉游戏后可在游戏操控设置中取消辅助驾驶已获得更高的自由度。
+NewPlayerTip02= 提示：你可以在设置中修改镜头的移动速度、按键位置， 已获得更棒的游戏体验。
+NewPlayerRefuse=不用，我是老司机
+NewPlayerAccept=开启辅助驾驶
+#/NewPlayerEnd
+#/GameCenter
+StandardLogin = 默认登陆
+#/GameCenter完毕
+#/IAPVerify
+InitiatePurchase = 初始化购买中。。。
+IAPVerify = 支付完毕，检验收据中
+IAPVerifyPassed = 检验成功，同步商品中。。。
+IAPVerifyFailed = 检验失败 原因：
+Buy = 购买
+IAPHasGood = 重复商品 无法购买！
+Restore = 找回商品
+com.shanghaiwindy.Waroftanks.vehicleT26E4=8级最强中坦!90mm主炮，双层间隙装甲，6倍银币经验收益，叱咤风云。  火力装备: 90mm Gun M3 (T7） ; 1 x 7.62毫米勃朗宁M1919机枪
+com.shanghaiwindy.Waroftanks.Coin300W=当你在缺少银币购买新坦克的时候，购买银币加值包是个不错的选择!
+com.shanghaiwindy.Waroftanks.vehiclet343=中系8级中型坦克，配备122mm火炮，5倍银币经验收益，口径碾压一切!
+com.shanghaiwindy.Waroftanks.vehicleBatChatillon15558=法系8级自行火炮。4倍银币收益。配备155mm口径5连发弹夹炮，可旋转的炮塔。运筹于帷帐之中,杀敌于千里之外。
+#/IAPVerify完毕
+#/事件层
+Event_Capture=获取占领点分数中
+Event_Restore=补给弹药中
+Event_Repair=修理中
+Event_Message=新消息
+EnableBattleMessage = 开启战斗中事件提醒
+#/事件层完毕
+#/GameNetwork
+InvalidRoom = 房间版本不符合:
+SelectVehicle= 请先选择车辆!
+GameNetworkCreateRoom=创建房间
+GameNetworkRefresh=刷新房间
+RequestRoom = 向服务器请求房间中... 耐心等待 服务器需要20秒左右来响应
+TeamA = 红队
+TeamB = 蓝队
+NoAmmoSelected = 没有选择弹药
+#/GameNetwork完毕
+#/离线模式
+OffflineAD = 玩累了就要看一波视频,赞助下游戏开发哦!
+OfflineSetPreset = 新增预设
+OfflineBattleLog =战斗记录
+#/离线模式完毕
+#/Preset Online&Offline
+RoomLabelOffline = 名称:
+PresetName =预设名称
+PresetRank=战斗等级
+PresetRankLerp =等级差距
+PresetMap = 地图
+CreatePreset =创建预设
+CancelPreset =取消预设
+TeamACount =队伍A数量
+TeamBCount =队伍B数量
+BattleTime=战斗时间
+BattleType=战斗类型
+TeamSelection=队伍
+AIDifficulty = 游戏难度
+#/Rreset完毕
+VehicleRoll=战车翻车 {0}/30 秒后将自爆
+GoRound = 再来一盘
+GoGarage = 返回车库
+GUIDamage=标伤值
+GUIPenetration=标穿值
+GUISpeed=速度值
+GUIHealth=生命值

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400006}
+  - component: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: TankScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc5a5480888d42f4aa392d1eac0b5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  OriginTarget: {fileID: 0}
+  Turret: {fileID: 0}
+  gun: {fileID: 0}
+  turretDegreesPerSecond: 45
+  gunDegreesPerSecond: 45
+  maxTurretAngle: 180
+  UpMaxDegree: 15
+  DownMaxDegree: 20
+  isMobile: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f43f0132fd3854391f785d1a1ee7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankFireParameter:
+    ReloadTime: 6
+    FireRecoil: 250
+    AmmoCount: 30
+    HasMachineGun: 0
+    bulletType: {fileID: 0}
+    GymAnimation: {fileID: 0}
+    muzzleFire: 0
+    fireState: 0
+    advanceFireClass:
+      LargeFinish: 0
+      LargeNowTime: 0
+      LargeReloadTime: 0
+      SmallNowTime: 0
+      SmallReloadTime: 0
+      MaxSmallAmmo: 0
+      SmallAmmoLeft: 0
+  tankInitSystem: {fileID: 0}
+  MainBody: {fileID: 0}
+  FFPoint: {fileID: 0}
+  FireEffectPoint: {fileID: 0}
+  FireRecoilPoint: {fileID: 0}
+  MachineGunFFPoint: {fileID: 0}
+  ReloadTimeCountDownInfo: {fileID: 0}
+  BattleLog: {fileID: 0}
+  FireStateInfo: {fileID: 0}
+  AmmoInfos: []
+  AmmoTextures: []
+  MainGunFireLoading: {fileID: 0}
+  FireButton: {fileID: 0}
+  SelectAmmo: 0
+  NowTime: 0
+  BulletCountList: 000000000000000000000000
+  turretController: {fileID: 0}
+  GunDym: {fileID: 0}
+  fireSyncPhotonView: {fileID: 0}
+  isAutoCaclulateGravity: 0
+  nationType: 0
+  netType: 0
+  AutoAim: 0
+  isBotControl: 0
+  isPlayerControl: 0
+  ExtraTurret: 0
+  machineGun: {fileID: 0}
+  UseGravity: 1
+  AmmoFinalPostion: {x: 0, y: 0, z: 0}
+  fireAngle: 0
+  gunAngle: 0
+  damperPerHundredMeters: 0
+  HasFinalPostion: 0
+  EndPoint: {x: 0, y: 0, z: 0}
+  IsOnLine: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: bulletSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MachineGunBulletSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: FireRecoil
+      value: 25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

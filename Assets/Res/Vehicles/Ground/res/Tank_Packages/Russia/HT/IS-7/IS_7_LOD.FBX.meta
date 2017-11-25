@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 0ddef9c19f0a2e143a2711392ca96ad3
+timeCreated: 1471081005
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Gun
+    100002: //RootNode
+    100004: l00
+    100006: l01
+    100008: l02
+    100010: l03
+    100012: l04
+    100014: l05
+    100016: l06
+    100018: LeftUpperWheel
+    100020: LeftWheel
+    100022: LeftWheelBone
+    100024: lu00
+    100026: lu01
+    100028: MainBody
+    100030: Others
+    100032: r00
+    100034: r01
+    100036: r02
+    100038: r03
+    100040: r04
+    100042: r05
+    100044: r06
+    100046: RightUpperWheel
+    100048: RightWheel
+    100050: RightWheelBone
+    100052: rppt
+    100054: ru00
+    100056: ru01
+    100058: Turret
+    400000: Gun
+    400002: //RootNode
+    400004: l00
+    400006: l01
+    400008: l02
+    400010: l03
+    400012: l04
+    400014: l05
+    400016: l06
+    400018: LeftUpperWheel
+    400020: LeftWheel
+    400022: LeftWheelBone
+    400024: lu00
+    400026: lu01
+    400028: MainBody
+    400030: Others
+    400032: r00
+    400034: r01
+    400036: r02
+    400038: r03
+    400040: r04
+    400042: r05
+    400044: r06
+    400046: RightUpperWheel
+    400048: RightWheel
+    400050: RightWheelBone
+    400052: rppt
+    400054: ru00
+    400056: ru01
+    400058: Turret
+    2300000: Gun
+    2300002: l00
+    2300004: l01
+    2300006: l02
+    2300008: l03
+    2300010: l04
+    2300012: l05
+    2300014: l06
+    2300016: lu00
+    2300018: lu01
+    2300020: MainBody
+    2300022: Others
+    2300024: r00
+    2300026: r01
+    2300028: r02
+    2300030: r03
+    2300032: r04
+    2300034: r05
+    2300036: r06
+    2300038: rppt
+    2300040: ru00
+    2300042: ru01
+    2300044: Turret
+    3300000: Gun
+    3300002: l00
+    3300004: l01
+    3300006: l02
+    3300008: l03
+    3300010: l04
+    3300012: l05
+    3300014: l06
+    3300016: lu00
+    3300018: lu01
+    3300020: MainBody
+    3300022: Others
+    3300024: r00
+    3300026: r01
+    3300028: r02
+    3300030: r03
+    3300032: r04
+    3300034: r05
+    3300036: r06
+    3300038: rppt
+    3300040: ru00
+    3300042: ru01
+    3300044: Turret
+    4300000: Others
+    4300002: MainBody
+    4300004: Turret
+    4300006: Gun
+    4300008: rppt
+    4300010: l02
+    4300012: l03
+    4300014: l00
+    4300016: l01
+    4300018: l04
+    4300020: l05
+    4300022: l06
+    4300024: r00
+    4300026: r01
+    4300028: r04
+    4300030: r05
+    4300032: r06
+    4300034: r02
+    4300036: r03
+    4300038: lu00
+    4300040: lu01
+    4300042: ru00
+    4300044: ru01
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

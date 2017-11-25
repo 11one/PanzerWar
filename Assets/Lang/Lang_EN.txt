@@ -1,0 +1,14 @@
+﻿StartupClickToJoin=Click Button To Start 
+BattleUIModuleTitle=Vehicle - Select your vehicle to join the battle!
+BattleUIModuleSelectVehicle=Vehicle
+BattleUIModuleAmmunitionTitle=Ammunition
+BattleUIModuleAmmunitionCount=Count
+BattleUIModuleSetting=Game Setting
+BattleUIModuleExitGame=Exit Game
+BattleUIModuleJoinBattle=Join Battle
+AmmoType=Type
+AmmoSpeed=Speed
+AmmoDamage=Damage
+AmmoPenerate=Peneration
+LoadingEffectTip=
+RespawnCountDown=

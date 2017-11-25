@@ -1,0 +1,14 @@
+﻿StartupClickToJoin=Натисніть кнопку для старту
+BattleUIModuleTitle=
+BattleUIModuleSelectVehicle=
+BattleUIModuleAmmunitionTitle=
+BattleUIModuleAmmunitionCount=
+BattleUIModuleSetting=
+BattleUIModuleExitGame=
+BattleUIModuleJoinBattle=
+AmmoType=
+AmmoSpeed=
+AmmoDamage=
+AmmoPenerate=
+LoadingEffectTip=
+RespawnCountDown=

@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 538be488d2dd5f045bc8599ba8ceb46d
+timeCreated: 1498187794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dym
+    100002: Gun
+    100004: LeftUpperWheel
+    100006: LeftWheel
+    100008: MainBody
+    100010: RightUpperWheel
+    100012: RightWheel
+    100014: //RootNode
+    100016: Turret
+    100018: w00
+    100020: w01
+    100022: w02
+    100024: w03
+    100026: w04
+    100028: w05
+    100030: w06
+    100032: w07
+    100034: w08
+    100036: w09
+    100038: w10
+    100040: w11
+    100042: w12
+    100044: w13
+    100046: w14
+    100048: w15
+    100050: w16
+    100052: w17
+    100054: w18
+    100056: w19
+    100058: w20
+    100060: w21
+    100062: w22
+    100064: w23
+    100066: w24
+    100068: w25
+    100070: w26
+    100072: w27
+    400000: Dym
+    400002: Gun
+    400004: LeftUpperWheel
+    400006: LeftWheel
+    400008: MainBody
+    400010: RightUpperWheel
+    400012: RightWheel
+    400014: //RootNode
+    400016: Turret
+    400018: w00
+    400020: w01
+    400022: w02
+    400024: w03
+    400026: w04
+    400028: w05
+    400030: w06
+    400032: w07
+    400034: w08
+    400036: w09
+    400038: w10
+    400040: w11
+    400042: w12
+    400044: w13
+    400046: w14
+    400048: w15
+    400050: w16
+    400052: w17
+    400054: w18
+    400056: w19
+    400058: w20
+    400060: w21
+    400062: w22
+    400064: w23
+    400066: w24
+    400068: w25
+    400070: w26
+    400072: w27
+    2300000: Dym
+    2300002: Gun
+    2300004: MainBody
+    2300006: Turret
+    2300008: w00
+    2300010: w01
+    2300012: w02
+    2300014: w03
+    2300016: w04
+    2300018: w05
+    2300020: w06
+    2300022: w07
+    2300024: w08
+    2300026: w09
+    2300028: w10
+    2300030: w11
+    2300032: w12
+    2300034: w13
+    2300036: w14
+    2300038: w15
+    2300040: w16
+    2300042: w17
+    2300044: w18
+    2300046: w19
+    2300048: w20
+    2300050: w21
+    2300052: w22
+    2300054: w23
+    2300056: w24
+    2300058: w25
+    2300060: w26
+    2300062: w27
+    3300000: Dym
+    3300002: Gun
+    3300004: MainBody
+    3300006: Turret
+    3300008: w00
+    3300010: w01
+    3300012: w02
+    3300014: w03
+    3300016: w04
+    3300018: w05
+    3300020: w06
+    3300022: w07
+    3300024: w08
+    3300026: w09
+    3300028: w10
+    3300030: w11
+    3300032: w12
+    3300034: w13
+    3300036: w14
+    3300038: w15
+    3300040: w16
+    3300042: w17
+    3300044: w18
+    3300046: w19
+    3300048: w20
+    3300050: w21
+    3300052: w22
+    3300054: w23
+    3300056: w24
+    3300058: w25
+    3300060: w26
+    3300062: w27
+    4300000: Turret
+    4300002: Gun
+    4300004: Dym
+    4300006: MainBody
+    4300008: w12
+    4300010: w07
+    4300012: w06
+    4300014: w11
+    4300016: w10
+    4300018: w09
+    4300020: w05
+    4300022: w08
+    4300024: w26
+    4300026: w21
+    4300028: w22
+    4300030: w23
+    4300032: w24
+    4300034: w19
+    4300036: w20
+    4300038: w25
+    4300040: w03
+    4300042: w04
+    4300044: w27
+    4300046: w01
+    4300048: w02
+    4300050: w00
+    4300052: w16
+    4300054: w17
+    4300056: w18
+    4300058: w14
+    4300060: w15
+    4300062: w13
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 39.37
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

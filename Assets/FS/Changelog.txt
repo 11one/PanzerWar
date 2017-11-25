@@ -1,0 +1,67 @@
+Version 1.04---------------
+
+
+Fixed Vector2 reflection bug.
+Fixed playmaker focus bug.
+Fixed mirror wing null exception when deleting parent component.
+Fixed mirror wing keeping empty component after source component deleted on parent.
+Added velocity camera.
+Fixed manual input warning bug.
+Fixed compile error when compiling against .net 4/5 ( **REFLECTED INPUT CURRENTLY DOES NOT WORK ON WINDOWS METRO** )
+Updated default prefabs to work with new input system.
+Added manual update functionality.
+Added progress bar to updater.
+Fixed autoupdate bug.
+
+Version 1.03---------------
+
+
+New input system - InputManager/Reflection/Manual options available
+New ground effect component for wings.
+Auto importer for gizmos.
+Stall warner low velocity fix.
+Wing sweep editor increment value bug fixed.
+Wing tip width editor increment value bug fixed.
+Wing tip angle editor increment value bug fixed.
+Wing sweep limits are improved.
+
+
+Version 1.02
+---------------
+
+
+Fixed Input.dat bug
+
+
+Version 1.00
+---------------
+
+
+Added Gizmos
+
+
+Version 1.00
+---------------
+
+
+Fixed landing gear toggle bug.
+
+Fixed null reference exception on GUi prefab.
+
+Updated example aircraft prefab.
+
+Fixed control surface warnings.
+
+Fixed Unity 4.2 warnings.
+
+Fixed 4.2 twin aircraft propeller bug.
+
+Added Undo functionality
+
+
+Added Input configure editor panel.
+Added Getting Started .pdf
+
+
+UnityFS Beta
+---------------

@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 0ce32cda54a9c1445ad545497da389a5
+timeCreated: 1449835177
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dummy001
+    100002: Dummy002
+    100004: Dummy003
+    100006: Dummy004
+    100008: Dummy005
+    100010: Dummy006
+    100012: Dummy007
+    100014: Dummy008
+    100016: Dummy009
+    100018: Dummy010
+    100020: Dummy011
+    100022: Dummy012
+    100024: Dummy013
+    100026: Dummy014
+    100028: Gun
+    100030: GunMain
+    100032: LeftTrack
+    100034: LeftUpperWheel
+    100036: LeftWheel
+    100038: LeftWheelBone
+    100040: MainBody
+    100042: RightTrack
+    100044: RightUpperWheel
+    100046: RightWheel
+    100048: RightWheelBone
+    100050: //RootNode
+    100052: Turret
+    100054: WheelL
+    100056: WheelL 1
+    100058: WheelL 2
+    100060: WheelL 3
+    100062: WheelL 4
+    100064: WheelL 5
+    100066: WheelLUpper
+    100068: WheelLUpper 1
+    100070: WheelR
+    100072: WheelR 1
+    100074: WheelR 2
+    100076: WheelR 3
+    100078: WheelR 4
+    100080: WheelR 5
+    100082: WheelRUpper
+    100084: WheelRUpper 1
+    400000: Dummy001
+    400002: Dummy002
+    400004: Dummy003
+    400006: Dummy004
+    400008: Dummy005
+    400010: Dummy006
+    400012: Dummy007
+    400014: Dummy008
+    400016: Dummy009
+    400018: Dummy010
+    400020: Dummy011
+    400022: Dummy012
+    400024: Dummy013
+    400026: Dummy014
+    400028: Gun
+    400030: GunMain
+    400032: LeftTrack
+    400034: LeftUpperWheel
+    400036: LeftWheel
+    400038: LeftWheelBone
+    400040: MainBody
+    400042: RightTrack
+    400044: RightUpperWheel
+    400046: RightWheel
+    400048: RightWheelBone
+    400050: //RootNode
+    400052: Turret
+    400054: WheelL
+    400056: WheelL 1
+    400058: WheelL 2
+    400060: WheelL 3
+    400062: WheelL 4
+    400064: WheelL 5
+    400066: WheelLUpper
+    400068: WheelLUpper 1
+    400070: WheelR
+    400072: WheelR 1
+    400074: WheelR 2
+    400076: WheelR 3
+    400078: WheelR 4
+    400080: WheelR 5
+    400082: WheelRUpper
+    400084: WheelRUpper 1
+    2300000: Gun
+    2300002: GunMain
+    2300004: MainBody
+    2300006: Turret
+    2300008: WheelL
+    2300010: WheelL 1
+    2300012: WheelL 2
+    2300014: WheelL 3
+    2300016: WheelL 4
+    2300018: WheelL 5
+    2300020: WheelLUpper
+    2300022: WheelLUpper 1
+    2300024: WheelR
+    2300026: WheelR 1
+    2300028: WheelR 2
+    2300030: WheelR 3
+    2300032: WheelR 4
+    2300034: WheelR 5
+    2300036: WheelRUpper
+    2300038: WheelRUpper 1
+    3300000: Gun
+    3300002: GunMain
+    3300004: MainBody
+    3300006: Turret
+    3300008: WheelL
+    3300010: WheelL 1
+    3300012: WheelL 2
+    3300014: WheelL 3
+    3300016: WheelL 4
+    3300018: WheelL 5
+    3300020: WheelLUpper
+    3300022: WheelLUpper 1
+    3300024: WheelR
+    3300026: WheelR 1
+    3300028: WheelR 2
+    3300030: WheelR 3
+    3300032: WheelR 4
+    3300034: WheelR 5
+    3300036: WheelRUpper
+    3300038: WheelRUpper 1
+    4300000: MainBody
+    4300002: Turret
+    4300004: Gun
+    4300006: GunMain
+    4300008: LeftTrack
+    4300010: RightTrack
+    4300012: WheelL
+    4300014: WheelL
+    4300016: WheelL
+    4300018: WheelL
+    4300020: WheelL
+    4300022: WheelL
+    4300024: WheelR
+    4300026: WheelR
+    4300028: WheelR
+    4300030: WheelR
+    4300032: WheelR
+    4300034: WheelR
+    4300036: WheelLUpper
+    4300038: WheelLUpper
+    4300040: WheelRUpper
+    4300042: WheelRUpper
+    9500000: //RootNode
+    13700000: LeftTrack
+    13700002: RightTrack
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

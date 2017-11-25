@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38dc38bd21154a418dc85f764272203, type: 3}
+  m_Name: Bat_Chatillon155_58_VehicleHitBox
+  m_EditorClassIdentifier: 
+  ReferModel: {fileID: 1920680607547158, guid: bee8acfb94dbf44388e4ff41fa9d42ae, type: 2}
+  ExternalArmorModel: {fileID: 100000, guid: 2d08327ec8ab6ad49951c88503bebb41, type: 3}
+  HitBoxPrefab: {fileID: 1187625594280212, guid: 792c7f534b18a43fb80dd8e316e895eb,
+    type: 2}

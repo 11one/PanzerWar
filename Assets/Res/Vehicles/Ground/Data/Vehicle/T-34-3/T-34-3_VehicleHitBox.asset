@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38dc38bd21154a418dc85f764272203, type: 3}
+  m_Name: T-34-3_VehicleHitBox
+  m_EditorClassIdentifier: 
+  ReferModel: {fileID: 1486394805247350, guid: ff8bd400b5fd94cbaa496377c42172d4, type: 2}
+  ExternalArmorModel: {fileID: 100020, guid: 017e85ba4eb1ea84a927f58b6a82b4d0, type: 3}
+  HitBoxPrefab: {fileID: 1453172482184664, guid: 1c19fbd5ead874957a24aae6f7d2829a,
+    type: 2}

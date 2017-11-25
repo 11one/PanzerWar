@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1dab4400eac4ebcbddc19cd96d4237, type: 3}
+  m_Name: T-34-3_VehicleEngineSoundData
+  m_EditorClassIdentifier: 
+  EngineStart: {fileID: 8300000, guid: 8a19a9cfbeddceb4a8ec9259dea38c28, type: 3}
+  EngineIdle: {fileID: 8300000, guid: 90165e0a91307a648812c9c719abd71c, type: 3}
+  EngineRunning: {fileID: 8300000, guid: 5f6725c9f49105b478a0d032b5a07161, type: 3}
+  EngineStop: {fileID: 0}

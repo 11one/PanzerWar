@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 7b293fc0257c9094ca9e441e657f1551
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 002400FF00
+    100002: 002403FF00
+    100004: 032400FF00
+    100006: 032403FF00
+    100008: 062412FF00
+    100010: 062412FF001
+    100012: 092415FF00
+    100014: 092415FF001
+    100016: 0C2418FF00
+    100018: 0C2418FF001
+    100020: 0F241BFF00
+    100022: 0F241BFF001
+    100024: 12241EFF00
+    100026: 12241EFF001
+    100028: 152421FF00
+    100030: 152421FF001
+    100032: 182424FF00
+    100034: 182424FF001
+    100036: 1B2406FF00
+    100038: 1B2409FF00
+    100040: 1E2409FF00
+    100042: 1E240CFF00
+    100044: 21240CFF00
+    100046: 21240FFF00
+    100048: 242406FF00
+    100050: 24240FFF00
+    100052: Gun
+    100054: //RootNode
+    100056: LeftTrack
+    100058: LeftUpperWheel
+    100060: LeftWheel
+    100062: MainBody
+    100064: Others
+    100066: RightTrack
+    100068: RightUpperWheel
+    100070: RightWheel
+    100072: Turret
+    100074: gunRoot
+    100076: LeftWheelSuspension
+    100078: lSuspension00
+    100080: lSuspension01
+    100082: lSuspension02
+    100084: lSuspension03
+    100086: lSuspension04
+    100088: lSuspension05
+    100090: RightWheelSuspension
+    100092: Suspension00
+    100094: Suspension01
+    100096: Suspension02
+    100098: Suspension03
+    100100: Suspension04
+    100102: Suspension05
+    400000: 002400FF00
+    400002: 002403FF00
+    400004: 032400FF00
+    400006: 032403FF00
+    400008: 062412FF00
+    400010: 062412FF001
+    400012: 092415FF00
+    400014: 092415FF001
+    400016: 0C2418FF00
+    400018: 0C2418FF001
+    400020: 0F241BFF00
+    400022: 0F241BFF001
+    400024: 12241EFF00
+    400026: 12241EFF001
+    400028: 152421FF00
+    400030: 152421FF001
+    400032: 182424FF00
+    400034: 182424FF001
+    400036: 1B2406FF00
+    400038: 1B2409FF00
+    400040: 1E2409FF00
+    400042: 1E240CFF00
+    400044: 21240CFF00
+    400046: 21240FFF00
+    400048: 242406FF00
+    400050: 24240FFF00
+    400052: Gun
+    400054: //RootNode
+    400056: LeftTrack
+    400058: LeftUpperWheel
+    400060: LeftWheel
+    400062: MainBody
+    400064: Others
+    400066: RightTrack
+    400068: RightUpperWheel
+    400070: RightWheel
+    400072: Turret
+    400074: gunRoot
+    400076: LeftWheelSuspension
+    400078: lSuspension00
+    400080: lSuspension01
+    400082: lSuspension02
+    400084: lSuspension03
+    400086: lSuspension04
+    400088: lSuspension05
+    400090: RightWheelSuspension
+    400092: Suspension00
+    400094: Suspension01
+    400096: Suspension02
+    400098: Suspension03
+    400100: Suspension04
+    400102: Suspension05
+    2300000: 002400FF00
+    2300002: 002403FF00
+    2300004: 032400FF00
+    2300006: 032403FF00
+    2300008: 062412FF00
+    2300010: 062412FF001
+    2300012: 092415FF00
+    2300014: 092415FF001
+    2300016: 0C2418FF00
+    2300018: 0C2418FF001
+    2300020: 0F241BFF00
+    2300022: 0F241BFF001
+    2300024: 12241EFF00
+    2300026: 12241EFF001
+    2300028: 152421FF00
+    2300030: 152421FF001
+    2300032: 182424FF00
+    2300034: 182424FF001
+    2300036: 1B2406FF00
+    2300038: 1B2409FF00
+    2300040: 1E2409FF00
+    2300042: 1E240CFF00
+    2300044: 21240CFF00
+    2300046: 21240FFF00
+    2300048: 242406FF00
+    2300050: 24240FFF00
+    2300052: Gun
+    2300054: LeftTrack
+    2300056: MainBody
+    2300058: RightTrack
+    2300060: Turret
+    2300062: gunRoot
+    2300064: lSuspension00
+    2300066: lSuspension01
+    2300068: lSuspension02
+    2300070: lSuspension03
+    2300072: lSuspension04
+    2300074: lSuspension05
+    2300076: Suspension00
+    2300078: Suspension01
+    2300080: Suspension02
+    2300082: Suspension03
+    2300084: Suspension04
+    2300086: Suspension05
+    3300000: 002400FF00
+    3300002: 002403FF00
+    3300004: 032400FF00
+    3300006: 032403FF00
+    3300008: 062412FF00
+    3300010: 062412FF001
+    3300012: 092415FF00
+    3300014: 092415FF001
+    3300016: 0C2418FF00
+    3300018: 0C2418FF001
+    3300020: 0F241BFF00
+    3300022: 0F241BFF001
+    3300024: 12241EFF00
+    3300026: 12241EFF001
+    3300028: 152421FF00
+    3300030: 152421FF001
+    3300032: 182424FF00
+    3300034: 182424FF001
+    3300036: 1B2406FF00
+    3300038: 1B2409FF00
+    3300040: 1E2409FF00
+    3300042: 1E240CFF00
+    3300044: 21240CFF00
+    3300046: 21240FFF00
+    3300048: 242406FF00
+    3300050: 24240FFF00
+    3300052: Gun
+    3300054: LeftTrack
+    3300056: MainBody
+    3300058: RightTrack
+    3300060: Turret
+    3300062: gunRoot
+    3300064: lSuspension00
+    3300066: lSuspension01
+    3300068: lSuspension02
+    3300070: lSuspension03
+    3300072: lSuspension04
+    3300074: lSuspension05
+    3300076: Suspension00
+    3300078: Suspension01
+    3300080: Suspension02
+    3300082: Suspension03
+    3300084: Suspension04
+    3300086: Suspension05
+    4300000: Turret
+    4300002: Gun
+    4300004: MainBody
+    4300006: 092415FF001
+    4300008: 0C2418FF001
+    4300010: 0F241BFF001
+    4300012: 12241EFF001
+    4300014: 152421FF001
+    4300016: 182424FF001
+    4300018: 092415FF00
+    4300020: 0C2418FF00
+    4300022: 0F241BFF00
+    4300024: 12241EFF00
+    4300026: 152421FF00
+    4300028: 182424FF00
+    4300030: 062412FF001
+    4300032: 242406FF00
+    4300034: 062412FF00
+    4300036: 1B2406FF00
+    4300038: 002403FF00
+    4300040: 032400FF00
+    4300042: 1E2409FF00
+    4300044: 21240CFF00
+    4300046: 24240FFF00
+    4300048: 002400FF00
+    4300050: 032403FF00
+    4300052: 1B2409FF00
+    4300054: 1E240CFF00
+    4300056: 21240FFF00
+    4300058: RightTrack
+    4300060: LeftTrack
+    4300062: gunRoot
+    4300064: Suspension00
+    4300066: Suspension05
+    4300068: Suspension01
+    4300070: Suspension02
+    4300072: Suspension03
+    4300074: Suspension04
+    4300076: lSuspension00
+    4300078: lSuspension01
+    4300080: lSuspension02
+    4300082: lSuspension03
+    4300084: lSuspension04
+    4300086: lSuspension05
+    7400000: TankFire
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TankFire
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftTrack
+        weight: 1
+      - path: LeftUpperWheel
+        weight: 1
+      - path: LeftUpperWheel/1B2406FF00
+        weight: 1
+      - path: LeftUpperWheel/062412FF00
+        weight: 1
+      - path: LeftWheel
+        weight: 1
+      - path: LeftWheel/0C2418FF00
+        weight: 1
+      - path: LeftWheel/0F241BFF00
+        weight: 1
+      - path: LeftWheel/12241EFF00
+        weight: 1
+      - path: LeftWheel/092415FF00
+        weight: 1
+      - path: LeftWheel/152421FF00
+        weight: 1
+      - path: LeftWheel/182424FF00
+        weight: 1
+      - path: LeftWheelSuspension
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension00
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension01
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension02
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension03
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension04
+        weight: 1
+      - path: LeftWheelSuspension/lSuspension05
+        weight: 1
+      - path: MainBody
+        weight: 1
+      - path: Others
+        weight: 1
+      - path: Others/1E2409FF00
+        weight: 1
+      - path: Others/002403FF00
+        weight: 1
+      - path: Others/21240CFF00
+        weight: 1
+      - path: Others/24240FFF00
+        weight: 1
+      - path: Others/032400FF00
+        weight: 1
+      - path: Others/032403FF00
+        weight: 1
+      - path: RightTrack
+        weight: 1
+      - path: RightUpperWheel
+        weight: 1
+      - path: RightUpperWheel/1B2409FF00
+        weight: 1
+      - path: RightUpperWheel/1E240CFF00
+        weight: 1
+      - path: RightUpperWheel/21240FFF00
+        weight: 1
+      - path: RightUpperWheel/062412FF001
+        weight: 1
+      - path: RightUpperWheel/242406FF00
+        weight: 1
+      - path: RightWheel
+        weight: 1
+      - path: RightWheel/0C2418FF001
+        weight: 1
+      - path: RightWheel/0F241BFF001
+        weight: 1
+      - path: RightWheel/12241EFF001
+        weight: 1
+      - path: RightWheel/092415FF001
+        weight: 1
+      - path: RightWheel/152421FF001
+        weight: 1
+      - path: RightWheel/182424FF001
+        weight: 1
+      - path: RightWheelSuspension
+        weight: 1
+      - path: RightWheelSuspension/Suspension00
+        weight: 1
+      - path: RightWheelSuspension/Suspension01
+        weight: 1
+      - path: RightWheelSuspension/Suspension02
+        weight: 1
+      - path: RightWheelSuspension/Suspension03
+        weight: 1
+      - path: RightWheelSuspension/Suspension04
+        weight: 1
+      - path: RightWheelSuspension/Suspension05
+        weight: 1
+      - path: Turret
+        weight: 1
+      - path: Turret/Gun
+        weight: 1
+      - path: Turret/Gun/gunRoot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

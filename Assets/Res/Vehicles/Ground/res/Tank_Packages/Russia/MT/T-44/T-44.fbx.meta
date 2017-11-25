@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 86de6cb57dea3f146870c0fd6ca41ddb
+timeCreated: 1457751804
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: 062D2DFF00
+    100002: 092D2AFF00
+    100004: 0C2D27FF00
+    100006: 0F2D24FF00
+    100008: 122D21FF00
+    100010: 152D1EFF00
+    100012: 182D1BFF00
+    100014: 1B2D18FF00
+    100016: 1E2D15FF00
+    100018: 212D12FF00
+    100020: 242D0CFF00
+    100022: 272D06FF00
+    100024: 2A2D0FFF00
+    100026: 2D2D09FF00
+    100028: Fanbu
+    100030: Gun
+    100032: LeftTrack
+    100034: LeftUpperWheel
+    100036: LeftWheel
+    100038: MainBody
+    100040: Oil
+    100042: Oil001
+    100044: RightTrack
+    100046: RightUpperWheel
+    100048: RightWheel
+    100050: root
+    100052: //RootNode
+    100054: Turret
+    100056: Wheel00
+    100058: Wheel00 1
+    100060: Wheel00 2
+    100062: Wheel00 3
+    100064: Wheel01
+    100066: Wheel01 1
+    100068: Wheel01 2
+    100070: Wheel01 3
+    100072: Wheel02
+    100074: Wheel02 1
+    100076: Wheel03
+    100078: Wheel03 1
+    100080: Wheel04
+    100082: Wheel04 1
+    100084: Wheel00.001
+    100086: Wheel00.002
+    100088: Wheel00.003
+    100090: Wheel01.001
+    100092: Wheel01.002
+    100094: Wheel01.003
+    100096: Wheel02.001
+    100098: Wheel03.001
+    100100: Wheel04.001
+    100102: HitBox_01
+    400000: 062D2DFF00
+    400002: 092D2AFF00
+    400004: 0C2D27FF00
+    400006: 0F2D24FF00
+    400008: 122D21FF00
+    400010: 152D1EFF00
+    400012: 182D1BFF00
+    400014: 1B2D18FF00
+    400016: 1E2D15FF00
+    400018: 212D12FF00
+    400020: 242D0CFF00
+    400022: 272D06FF00
+    400024: 2A2D0FFF00
+    400026: 2D2D09FF00
+    400028: Fanbu
+    400030: Gun
+    400032: LeftTrack
+    400034: LeftUpperWheel
+    400036: LeftWheel
+    400038: MainBody
+    400040: Oil
+    400042: Oil001
+    400044: RightTrack
+    400046: RightUpperWheel
+    400048: RightWheel
+    400050: root
+    400052: //RootNode
+    400054: Turret
+    400056: Wheel00
+    400058: Wheel00 1
+    400060: Wheel00 2
+    400062: Wheel00 3
+    400064: Wheel01
+    400066: Wheel01 1
+    400068: Wheel01 2
+    400070: Wheel01 3
+    400072: Wheel02
+    400074: Wheel02 1
+    400076: Wheel03
+    400078: Wheel03 1
+    400080: Wheel04
+    400082: Wheel04 1
+    400084: Wheel00.001
+    400086: Wheel00.002
+    400088: Wheel00.003
+    400090: Wheel01.001
+    400092: Wheel01.002
+    400094: Wheel01.003
+    400096: Wheel02.001
+    400098: Wheel03.001
+    400100: Wheel04.001
+    400102: HitBox_01
+    2300000: 062D2DFF00
+    2300002: 092D2AFF00
+    2300004: 0C2D27FF00
+    2300006: 0F2D24FF00
+    2300008: 122D21FF00
+    2300010: 152D1EFF00
+    2300012: 182D1BFF00
+    2300014: 1B2D18FF00
+    2300016: 1E2D15FF00
+    2300018: 212D12FF00
+    2300020: 242D0CFF00
+    2300022: 272D06FF00
+    2300024: 2A2D0FFF00
+    2300026: 2D2D09FF00
+    2300028: Fanbu
+    2300030: Gun
+    2300032: LeftTrack
+    2300034: MainBody
+    2300036: Oil
+    2300038: Oil001
+    2300040: RightTrack
+    2300042: root
+    2300044: Turret
+    2300046: Wheel00
+    2300048: Wheel00 1
+    2300050: Wheel00 2
+    2300052: Wheel00 3
+    2300054: Wheel01
+    2300056: Wheel01 1
+    2300058: Wheel01 2
+    2300060: Wheel01 3
+    2300062: Wheel02
+    2300064: Wheel02 1
+    2300066: Wheel03
+    2300068: Wheel03 1
+    2300070: Wheel04
+    2300072: Wheel04 1
+    2300074: Wheel00.001
+    2300076: Wheel00.002
+    2300078: Wheel00.003
+    2300080: Wheel01.001
+    2300082: Wheel01.002
+    2300084: Wheel01.003
+    2300086: Wheel02.001
+    2300088: Wheel03.001
+    2300090: Wheel04.001
+    2300092: HitBox_01
+    3300000: 062D2DFF00
+    3300002: 092D2AFF00
+    3300004: 0C2D27FF00
+    3300006: 0F2D24FF00
+    3300008: 122D21FF00
+    3300010: 152D1EFF00
+    3300012: 182D1BFF00
+    3300014: 1B2D18FF00
+    3300016: 1E2D15FF00
+    3300018: 212D12FF00
+    3300020: 242D0CFF00
+    3300022: 272D06FF00
+    3300024: 2A2D0FFF00
+    3300026: 2D2D09FF00
+    3300028: Fanbu
+    3300030: Gun
+    3300032: LeftTrack
+    3300034: MainBody
+    3300036: Oil
+    3300038: Oil001
+    3300040: RightTrack
+    3300042: root
+    3300044: Turret
+    3300046: Wheel00
+    3300048: Wheel00 1
+    3300050: Wheel00 2
+    3300052: Wheel00 3
+    3300054: Wheel01
+    3300056: Wheel01 1
+    3300058: Wheel01 2
+    3300060: Wheel01 3
+    3300062: Wheel02
+    3300064: Wheel02 1
+    3300066: Wheel03
+    3300068: Wheel03 1
+    3300070: Wheel04
+    3300072: Wheel04 1
+    3300074: Wheel00.001
+    3300076: Wheel00.002
+    3300078: Wheel00.003
+    3300080: Wheel01.001
+    3300082: Wheel01.002
+    3300084: Wheel01.003
+    3300086: Wheel02.001
+    3300088: Wheel03.001
+    3300090: Wheel04.001
+    3300092: HitBox_01
+    4300000: MainBody
+    4300002: Oil001
+    4300004: Oil
+    4300006: Turret
+    4300008: Gun
+    4300010: root
+    4300012: Fanbu
+    4300014: LeftTrack
+    4300016: RightTrack
+    4300018: 062D2DFF00
+    4300020: 092D2AFF00
+    4300022: 0C2D27FF00
+    4300024: 0F2D24FF00
+    4300026: 122D21FF00
+    4300028: 212D12FF00
+    4300030: 1E2D15FF00
+    4300032: 1B2D18FF00
+    4300034: 182D1BFF00
+    4300036: 152D1EFF00
+    4300038: 2A2D0FFF00
+    4300040: 242D0CFF00
+    4300042: 272D06FF00
+    4300044: 2D2D09FF00
+    4300046: Wheel02
+    4300048: Wheel01
+    4300050: Wheel04
+    4300052: Wheel03
+    4300054: Wheel00
+    4300056: Wheel00
+    4300058: Wheel03
+    4300060: Wheel04
+    4300062: Wheel01
+    4300064: Wheel02
+    4300066: Wheel00
+    4300068: Wheel01
+    4300070: Wheel01
+    4300072: Wheel00
+    4300074: Wheel00.003
+    4300076: Wheel01.003
+    4300078: Wheel02.001
+    4300080: HitBox_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

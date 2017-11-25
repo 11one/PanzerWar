@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 5ae8a258988b6db48b1864193a3038ac
+timeCreated: 1447407504
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aileron_l
+    100002: aileron_r
+    100004: antenna
+    100006: blister1
+    100008: elevator0
+    100010: elevator1
+    100012: flap1_l
+    100014: flap1_r
+    100016: flap_l
+    100018: flap_r
+    100020: fuse
+    100022: gear_c
+    100024: gear_l1
+    100026: gear_r1
+    100028: //RootNode
+    100030: prop01_1
+    100032: rudder
+    100034: slat_l
+    100036: slat_r
+    100038: tail
+    100040: wheel_c
+    100042: wing_l
+    100044: wing_r
+    400000: aileron_l
+    400002: aileron_r
+    400004: antenna
+    400006: blister1
+    400008: elevator0
+    400010: elevator1
+    400012: flap1_l
+    400014: flap1_r
+    400016: flap_l
+    400018: flap_r
+    400020: fuse
+    400022: gear_c
+    400024: gear_l1
+    400026: gear_r1
+    400028: //RootNode
+    400030: prop01_1
+    400032: rudder
+    400034: slat_l
+    400036: slat_r
+    400038: tail
+    400040: wheel_c
+    400042: wing_l
+    400044: wing_r
+    2300000: aileron_l
+    2300002: aileron_r
+    2300004: antenna
+    2300006: blister1
+    2300008: elevator0
+    2300010: elevator1
+    2300012: flap1_l
+    2300014: flap1_r
+    2300016: flap_l
+    2300018: flap_r
+    2300020: fuse
+    2300022: gear_c
+    2300024: gear_l1
+    2300026: gear_r1
+    2300028: prop01_1
+    2300030: rudder
+    2300032: slat_l
+    2300034: slat_r
+    2300036: tail
+    2300038: wheel_c
+    2300040: wing_l
+    2300042: wing_r
+    3300000: aileron_l
+    3300002: aileron_r
+    3300004: antenna
+    3300006: blister1
+    3300008: elevator0
+    3300010: elevator1
+    3300012: flap1_l
+    3300014: flap1_r
+    3300016: flap_l
+    3300018: flap_r
+    3300020: fuse
+    3300022: gear_c
+    3300024: gear_l1
+    3300026: gear_r1
+    3300028: prop01_1
+    3300030: rudder
+    3300032: slat_l
+    3300034: slat_r
+    3300036: tail
+    3300038: wheel_c
+    3300040: wing_l
+    3300042: wing_r
+    4300000: prop01_1
+    4300002: blister1
+    4300004: rudder
+    4300006: gear_c
+    4300008: wheel_c
+    4300010: fuse
+    4300012: flap_r
+    4300014: flap1_r
+    4300016: aileron_r
+    4300018: slat_r
+    4300020: elevator1
+    4300022: aileron_l
+    4300024: flap1_l
+    4300026: flap_l
+    4300028: gear_l1
+    4300030: gear_r1
+    4300032: slat_l
+    4300034: tail
+    4300036: wing_l
+    4300038: wing_r
+    4300040: antenna
+    4300042: elevator0
+    7400000: Landing
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Landing
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: GetRef
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: aileron_l
+        weight: 1
+      - path: aileron_r
+        weight: 1
+      - path: antenna
+        weight: 1
+      - path: blister1
+        weight: 1
+      - path: elevator0
+        weight: 1
+      - path: elevator1
+        weight: 1
+      - path: flap1_l
+        weight: 1
+      - path: flap1_r
+        weight: 1
+      - path: flap_l
+        weight: 1
+      - path: flap_r
+        weight: 1
+      - path: fuse
+        weight: 1
+      - path: gear_c
+        weight: 1
+      - path: gear_c/wheel_c
+        weight: 1
+      - path: gear_l1
+        weight: 1
+      - path: gear_r1
+        weight: 1
+      - path: prop01_1
+        weight: 1
+      - path: rudder
+        weight: 1
+      - path: slat_l
+        weight: 1
+      - path: slat_r
+        weight: 1
+      - path: tail
+        weight: 1
+      - path: wing_l
+        weight: 1
+      - path: wing_r
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

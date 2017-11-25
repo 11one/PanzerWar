@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 2d8ca8a03b8cd8548b9aa573532723be
+timeCreated: 1470216424
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 002D00FF00
+    100002: Fanbu
+    100004: Gun
+    100006: LeftUpperWheel
+    100008: LeftWheel
+    100010: MainBody
+    100012: Oil001
+    100014: Others
+    100016: RightUpperWheel
+    100018: RightWheel
+    100020: root
+    100022: //RootNode
+    100024: Turret
+    100026: Wheel00
+    100028: Wheel00 1
+    100030: Wheel00 2
+    100032: Wheel00 3
+    100034: Wheel01
+    100036: Wheel01 1
+    100038: Wheel01 2
+    100040: Wheel01 3
+    100042: Wheel02
+    100044: Wheel02 1
+    100046: Wheel03
+    100048: Wheel03 1
+    100050: Wheel04
+    100052: Wheel04 1
+    400000: 002D00FF00
+    400002: Fanbu
+    400004: Gun
+    400006: LeftUpperWheel
+    400008: LeftWheel
+    400010: MainBody
+    400012: Oil001
+    400014: Others
+    400016: RightUpperWheel
+    400018: RightWheel
+    400020: root
+    400022: //RootNode
+    400024: Turret
+    400026: Wheel00
+    400028: Wheel00 1
+    400030: Wheel00 2
+    400032: Wheel00 3
+    400034: Wheel01
+    400036: Wheel01 1
+    400038: Wheel01 2
+    400040: Wheel01 3
+    400042: Wheel02
+    400044: Wheel02 1
+    400046: Wheel03
+    400048: Wheel03 1
+    400050: Wheel04
+    400052: Wheel04 1
+    2300000: 002D00FF00
+    2300002: Fanbu
+    2300004: Gun
+    2300006: MainBody
+    2300008: Oil001
+    2300010: root
+    2300012: Turret
+    2300014: Wheel00
+    2300016: Wheel00 1
+    2300018: Wheel00 2
+    2300020: Wheel00 3
+    2300022: Wheel01
+    2300024: Wheel01 1
+    2300026: Wheel01 2
+    2300028: Wheel01 3
+    2300030: Wheel02
+    2300032: Wheel02 1
+    2300034: Wheel03
+    2300036: Wheel03 1
+    2300038: Wheel04
+    2300040: Wheel04 1
+    3300000: 002D00FF00
+    3300002: Fanbu
+    3300004: Gun
+    3300006: MainBody
+    3300008: Oil001
+    3300010: root
+    3300012: Turret
+    3300014: Wheel00
+    3300016: Wheel00 1
+    3300018: Wheel00 2
+    3300020: Wheel00 3
+    3300022: Wheel01
+    3300024: Wheel01 1
+    3300026: Wheel01 2
+    3300028: Wheel01 3
+    3300030: Wheel02
+    3300032: Wheel02 1
+    3300034: Wheel03
+    3300036: Wheel03 1
+    3300038: Wheel04
+    3300040: Wheel04 1
+    4300000: MainBody
+    4300002: Oil001
+    4300004: Turret
+    4300006: Gun
+    4300008: root
+    4300010: Fanbu
+    4300012: Wheel02
+    4300014: Wheel00
+    4300016: Wheel01
+    4300018: Wheel03
+    4300020: Wheel04
+    4300022: Wheel01
+    4300024: Wheel04
+    4300026: Wheel03
+    4300028: Wheel02
+    4300030: Wheel00
+    4300032: Wheel00
+    4300034: Wheel01
+    4300036: Wheel01
+    4300038: Wheel00
+    4300040: 002D00FF00
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

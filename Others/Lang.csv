@@ -1,0 +1,18 @@
+Key/Language,CN,EN,RU,UA
+// #主菜单 Startup,,,,
+StartupClickToJoin,点击进入游戏,Click Button To Start ,Нажмите на кнопку для старта,Натисніть кнопку для старту
+//# ,,,,
+BattleUIModuleTitle,载具,Vehicle - Select your vehicle to join the battle!,,
+BattleUIModuleSelectVehicle,选择车辆,Vehicle,,
+BattleUIModuleAmmunitionTitle,弹药配置,Ammunition,,
+BattleUIModuleAmmunitionCount,数量,Count,,
+BattleUIModuleSetting,游戏设置,Game Setting,,
+BattleUIModuleExitGame,退出战局,Exit Game,,
+BattleUIModuleJoinBattle,加入战斗,Join Battle,,
+//# Ammo,,,,
+AmmoType,种类,Type,,
+AmmoSpeed,速度,Speed,,
+AmmoDamage,伤害,Damage,,
+AmmoPenerate,穿深,Peneration,,
+LoadingEffectTip,小部分内容参看部分历史，大部分内容已经为游戏性进行了改编。游戏仅供娱乐！！！,,,
+RespawnCountDown,你的载具已经被击毁了咯！将在{0}秒后可以选择新的载具！,,,

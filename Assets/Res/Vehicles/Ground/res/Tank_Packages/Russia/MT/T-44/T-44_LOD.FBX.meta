@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 9af37ead01da14f42b54578f5434e070
+timeCreated: 1470216520
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fanbu
+    100002: Gun
+    100004: LeftUpperWheel
+    100006: LeftWheel
+    100008: MainBody
+    100010: Oil
+    100012: Oil001
+    100014: RightUpperWheel
+    100016: RightWheel
+    100018: root
+    100020: //RootNode
+    100022: Turret
+    100024: Wheel00
+    100026: Wheel00 1
+    100028: Wheel00 2
+    100030: Wheel00 3
+    100032: Wheel01
+    100034: Wheel01 1
+    100036: Wheel01 2
+    100038: Wheel01 3
+    100040: Wheel02
+    100042: Wheel02 1
+    100044: Wheel03
+    100046: Wheel03 1
+    100048: Wheel04
+    100050: Wheel04 1
+    400000: Fanbu
+    400002: Gun
+    400004: LeftUpperWheel
+    400006: LeftWheel
+    400008: MainBody
+    400010: Oil
+    400012: Oil001
+    400014: RightUpperWheel
+    400016: RightWheel
+    400018: root
+    400020: //RootNode
+    400022: Turret
+    400024: Wheel00
+    400026: Wheel00 1
+    400028: Wheel00 2
+    400030: Wheel00 3
+    400032: Wheel01
+    400034: Wheel01 1
+    400036: Wheel01 2
+    400038: Wheel01 3
+    400040: Wheel02
+    400042: Wheel02 1
+    400044: Wheel03
+    400046: Wheel03 1
+    400048: Wheel04
+    400050: Wheel04 1
+    2300000: Fanbu
+    2300002: Gun
+    2300004: MainBody
+    2300006: Oil
+    2300008: Oil001
+    2300010: root
+    2300012: Turret
+    2300014: Wheel00
+    2300016: Wheel00 1
+    2300018: Wheel00 2
+    2300020: Wheel00 3
+    2300022: Wheel01
+    2300024: Wheel01 1
+    2300026: Wheel01 2
+    2300028: Wheel01 3
+    2300030: Wheel02
+    2300032: Wheel02 1
+    2300034: Wheel03
+    2300036: Wheel03 1
+    2300038: Wheel04
+    2300040: Wheel04 1
+    3300000: Fanbu
+    3300002: Gun
+    3300004: MainBody
+    3300006: Oil
+    3300008: Oil001
+    3300010: root
+    3300012: Turret
+    3300014: Wheel00
+    3300016: Wheel00 1
+    3300018: Wheel00 2
+    3300020: Wheel00 3
+    3300022: Wheel01
+    3300024: Wheel01 1
+    3300026: Wheel01 2
+    3300028: Wheel01 3
+    3300030: Wheel02
+    3300032: Wheel02 1
+    3300034: Wheel03
+    3300036: Wheel03 1
+    3300038: Wheel04
+    3300040: Wheel04 1
+    4300000: MainBody
+    4300002: Oil001
+    4300004: Oil
+    4300006: Turret
+    4300008: Gun
+    4300010: root
+    4300012: Fanbu
+    4300014: Wheel02
+    4300016: Wheel01
+    4300018: Wheel04
+    4300020: Wheel03
+    4300022: Wheel00
+    4300024: Wheel00
+    4300026: Wheel03
+    4300028: Wheel04
+    4300030: Wheel01
+    4300032: Wheel02
+    4300034: Wheel00
+    4300036: Wheel01
+    4300038: Wheel01
+    4300040: Wheel00
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
