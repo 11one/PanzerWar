@@ -1,6 +1,7 @@
-># 请注意:这个仓库使用Git-lfs 请先Fork 然后在 Clone 不然我的lfs 流量会被用完的！！！
-># Note:This repository is using Git-lfs. Please fork the repository before cloning.Otherwise,my persional bandwidth will be used up!
- 
+>## 请注意:这个仓库使用Git-lfs 请先Fork 然后在 Clone 不然我的lfs 流量会被用完的！！！
+>## Note:This repository is using Git-lfs. Please fork the repository before cloning.Otherwise,my persional bandwidth will be used up!
+>[About-storage-and-bandwidth-usage on GitHub](https://help.github.com/articles/about-storage-and-bandwidth-usage/)
+
 # Synopsis 
 An open source tank game made by Unity3D game engine.
 
