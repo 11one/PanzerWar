@@ -7,7 +7,7 @@ using System.IO;
 public class Utility_CreateDefaultVehicleAssets : EditorWindow {
     string vehicleToCreateStr = "";
 
-    [MenuItem("Tools/CreateDefaultVehicleAssets")]
+    [MenuItem("Tools/Create Default VehicleAssets")]
     static void Init(){
         EditorWindow.GetWindow(typeof(Utility_CreateDefaultVehicleAssets));
     }
@@ -32,6 +32,15 @@ public class Utility_CreateDefaultVehicleAssets : EditorWindow {
 
         rootPath += "/{0}_{1}.asset";
 
+        GameObject wheelCollider = new GameObject(string.Format("{0}_WheelCollider", vehicleName));
+
+        WheelCollider wC = wheelCollider.AddComponent<WheelCollider>();
+        wheelCollider.AddComponent(typeof(Rigidbody)); // Visual Debug
+
+        GameObject wheelColliderPrefab = PrefabUtility.CreatePrefab(string.Format("Assets/Res/Vehicles/Ground/Data/Vehicle/{0}/{1}.prefab", vehicleName, wheelCollider.name),wheelCollider);
+
+        DestroyImmediate(wheelCollider);
+
         VehicleHitBox vehilceHitBox = new ScriptableObjectClassManager<VehicleHitBox>().Create(string.Format(rootPath, vehicleName, "VehicleHitBox"));
 
         VehicleTextData  vehicleTextData = new ScriptableObjectClassManager<VehicleTextData>().Create(string.Format(rootPath, vehicleName, "VehicleTextData"));
@@ -47,7 +56,7 @@ public class Utility_CreateDefaultVehicleAssets : EditorWindow {
 
         vehicleTextData.AssetName = vehicleName;
 
-
+        vehicleTextData.PTCParameter.TankWheelCollider = wheelColliderPrefab;
         vehicleTextData.PTCParameter.vehicleEngineSoundData = vehicleEngineSoundData;
     }
 }

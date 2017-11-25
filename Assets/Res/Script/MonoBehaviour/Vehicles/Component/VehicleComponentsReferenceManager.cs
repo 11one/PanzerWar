@@ -4,4 +4,5 @@ using UnityEngine;
 
 public class VehicleComponentsReferenceManager : MonoBehaviour {
 	public GameObject FFPoint,EffectStart,EngineSmoke,EngineSound,MainCameraFollowTarget,MainCameraGunner,FireForceFeedbackPoint,CenterOfGravity,MachineGunFFPoint;
+    public GameObject LeftTrack, RightTrack;
 }

@@ -201,47 +201,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 63743229}
---- !u!1 &116510417
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 116510419}
-  - component: {fileID: 116510418}
-  m_Layer: 0
-  m_Name: Dialog
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &116510418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 116510417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d111288b5c831497fbd8f19144d84254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ParentCanvas: {fileID: 435065070}
---- !u!4 &116510419
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 116510417}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -219.37546, y: 104.82098, z: 0}
-  m_LocalScale: {x: 1.6035635, y: 1.6035635, z: 1.6035635}
-  m_Children: []
-  m_Father: {fileID: 435065071}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135410837
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +365,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE902
   m_Size: 56
-  m_ScaledSize: 34.78125
+  m_ScaledSize: 34.844444
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1646448639}
   m_VectorImageData:
@@ -431,116 +390,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 240332339}
---- !u!1 &435065068
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 138506, guid: 38597d186d2988e4fb1243cb5a3fcd94, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 435065071}
-  - component: {fileID: 435065070}
-  - component: {fileID: 435065069}
-  - component: {fileID: 435065072}
-  - component: {fileID: 435065073}
-  m_Layer: 5
-  m_Name: DialogManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &435065069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11466340, guid: 38597d186d2988e4fb1243cb5a3fcd94,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 435065068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1280, y: 720}
-  m_ScreenMatchMode: 1
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &435065070
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 22349556, guid: 38597d186d2988e4fb1243cb5a3fcd94,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 435065068}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 9999
-  m_TargetDisplay: 0
---- !u!224 &435065071
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 22445428, guid: 38597d186d2988e4fb1243cb5a3fcd94,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 435065068}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 116510419}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &435065072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 435065068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ce5f4d815dec524e9360690ebf62197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LastScaleFactor: 0.62083334
---- !u!114 &435065073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 435065068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!1 &457144984
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +459,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \uE90A
   m_Size: 48
-  m_ScaledSize: 34.78125
+  m_ScaledSize: 34.844444
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1646448639}
   m_VectorImageData:
@@ -791,7 +640,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &703608806
 GameObject:
@@ -1170,8 +1019,8 @@ MonoBehaviour:
   m_ShadowsCanvasGroup: {fileID: 935968438}
   m_Interactable: 1
   m_ContentPadding: {x: 30, y: 18}
-  m_ContentSize: {x: 434.71698, y: 59.572327}
-  m_Size: {x: 464.71698, y: 77.57233}
+  m_ContentSize: {x: 433.92856, y: 59.464283}
+  m_Size: {x: 463.92856, y: 77.46428}
   m_FitWidthToContent: 1
   m_FitHeightToContent: 1
   m_ShadowFitsLayout: 0
@@ -1607,7 +1456,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265267876
 GameObject:
@@ -1839,7 +1688,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: \ue894
   m_Size: 24
-  m_ScaledSize: 14.90625
+  m_ScaledSize: 14.933334
   m_SizeMode: 3
   m_MaterialUiScaler: {fileID: 1646448639}
   m_VectorImageData:
@@ -1884,7 +1733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce5f4d815dec524e9360690ebf62197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LastScaleFactor: 0.62109375
+  m_LastScaleFactor: 0.62222224
 --- !u!114 &1646448640
 MonoBehaviour:
   m_ObjectHideFlags: 0

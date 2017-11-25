@@ -26,41 +26,8 @@ public class StartUp : MonoBehaviour
 			uGUI_QualitySetting.ApplySolution (2);
 		}
 
-		#if UNITY_IPHONE
-		if (check_jailbroken ()) {
-			DialogSystem.UpdateLabel ("JailBroken Application Rejected!", onFinish => {
-				Application.Quit();
-			}, 5);
-		}
-		#endif
 	}
-	#if UNITY_IPHONE
 
-	bool check_jailbroken ()
-	{
-		string[] paths = new string[10] {
-			"/Applications/Cydia.app",
-			"/private/var/lib/cydia",
-			"/private/var/tmp/cydia.log",
-			"/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
-			"/usr/libexec/sftp-server",
-			"/usr/bin/sshd",
-			"/usr/sbin/sshd",
-			"/Applications/FakeCarrier.app",
-			"/Applications/SBSettings.app",
-			"/Applications/WinterBoard.app"
-		};
-		int i = 0;
-		bool jailbroken = false;
-
-		for (i = 0; i < paths.Length; i++) {
-			if (System.IO.File.Exists (paths [i])) {
-				jailbroken = true;
-			}            
-		}
-		return jailbroken;
-	}
-	#endif
 	public void StartUpAction ()
 	{
 		DontDestroyOnLoad (gameObject);

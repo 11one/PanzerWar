@@ -311,7 +311,9 @@ public class TankInitSystem : BaseInitSystem
 		PTC.rightTrackUpperWheels = GetAllChilds (TankTransform.transform.Find ("RightUpperWheel"));
 		PTC.leftTrackUpperWheels = GetAllChilds (TankTransform.transform.Find ("LeftUpperWheel"));
 		PTC.rightTrackWheels = GetAllChilds (TankTransform.transform.Find ("RightWheel")); 
-		PTC.leftTrackWheels = GetAllChilds (TankTransform.transform.Find ("LeftWheel")); 
+		PTC.leftTrackWheels = GetAllChilds (TankTransform.transform.Find ("LeftWheel"));
+        PTC.leftTrack = referenceManager.LeftTrack;
+        PTC.rightTrack = referenceManager.RightTrack;
 
 		//PTC.leftTrackBones = CreateTrack (true, TankTransform.transform, ref PTC);
 		//PTC.rightTrackBones = CreateTrack (false, TankTransform.transform, ref PTC);

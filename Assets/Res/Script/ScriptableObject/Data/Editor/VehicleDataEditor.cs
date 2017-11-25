@@ -56,6 +56,7 @@ public class VehicleDataEditor : EditorWindowBase
 
 		BaseGUI ();
 
+        EditorGUILayout.HelpBox("Press Key [C] to save the position and location of the dump to the cache",MessageType.Info);
 		if (GUILayout.Button ("Open Edit Mode")) {
 			LockEditor ();
 			OpenEditorScene ();
@@ -86,9 +87,9 @@ public class VehicleDataEditor : EditorWindowBase
 	TankInitSystem InitTankPrefabs ()
 	{
 
-		#region 碰撞检测
+		#region Collision Detect
 		if (vehicleData.modelData.MainModel.GetComponentsInChildren<BoxCollider> ().Length == 0) {
-			if (EditorUtility.DisplayDialog ("错误", "坦克模型必须设置完毕碰撞数据", "好的,立刻去设置", "重新选择资源")) {
+            if (EditorUtility.DisplayDialog ("Error", "Collision should be set.We will redirct you to it.", "OK,l will set it now!", "No,l will choose another one")) {
 				EditorGUIUtility.PingObject (vehicleData.modelData.MainModel.GetInstanceID ());
 				OpenEditorScene ();
 
@@ -99,6 +100,7 @@ public class VehicleDataEditor : EditorWindowBase
 				string PrefabStoreDir = System.IO.Directory.CreateDirectory (string.Format (TempPath + "/Collisions_{0}", vehicleData.modelData.MainModel.name)).FullName;
 					
 				AssetDatabase.Refresh ();
+                return null;
 				//PrefabUtility.CreatePrefab (string.Format (PrefabStoreDir + "/{0}.prefab", vehicleData.modelData.MainModel.name),EditColliderInstance);
 			} else {
 				return null;
@@ -106,7 +108,7 @@ public class VehicleDataEditor : EditorWindowBase
 		}
 		#endregion
 
-		#region 初始化 坦克物体变量
+		#region Init
 		GameObject TankPrefabs = new GameObject ();
 		GameObject InstanceMesh = Instantiate (vehicleData.modelData.MainModel);
 		InstanceMesh.name = vehicleData.modelData.MainModel.name;
@@ -120,13 +122,14 @@ public class VehicleDataEditor : EditorWindowBase
 		TankTransform.transform.parent = InstanceMesh.transform;
 
 		Transform RightWheel, LeftWheel, RightUpperWheels, LeftUpperWheels, Turret, Gun, GunDym;
-		#region 在模型上寻找虚拟对象 
+		#region Find Dumps
 		RightWheel = InstanceMesh.transform.Find ("RightWheel");		
 		LeftWheel = InstanceMesh.transform.Find ("LeftWheel");		
 		Turret = InstanceMesh.transform.Find ("Turret");
 		Gun = Turret.transform.Find ("Gun");
         GunDym = Gun.GetChild(0);
-			
+
+
         RightUpperWheels = InstanceMesh.transform.Find ("RightUpperWheel");	
 		LeftUpperWheels = InstanceMesh.transform.Find ("LeftUpperWheel");	
 		#endregion
@@ -135,20 +138,12 @@ public class VehicleDataEditor : EditorWindowBase
 		LeftUpperWheels.parent = TankTransform.transform;
 		RightUpperWheels.parent = TankTransform.transform;	
 
-		#region 实例化坦克的附加物体 坦克控制器 坦克脚本 坦克ui 坦克瞄准镜 主摄像机 坦克引擎声音 坦克引擎烟雾 死亡效果
-		//EngineSmoke = new GameObject("EngineSmoke");
-		//LeftTrackEffect = new GameObject("LeftTrackEffect");
-		//RightTrackEffect=new GameObject("RightTrackEffect");
-		#endregion
+
 		GameObject TurretTransform = new GameObject ("TurretTransform");
 		GameObject GunTransform = new GameObject ("GunTransform");
 		GameObject GunDymTransform = new GameObject ("GunDym");
 
         VehicleComponentsReferenceManager referenceManager = InstanceMesh.AddComponent<VehicleComponentsReferenceManager>();
-
-        //GameObject MainHitBox = new GameObject ("MainHitBox");
-        //GameObject TurretHitBox = new GameObject ("TurretHitBox");
-
 
         TurretTransform.transform.SetParent (InstanceMesh.transform);
 		TurretTransform.transform.position = Turret.transform.position;
@@ -163,8 +158,8 @@ public class VehicleDataEditor : EditorWindowBase
 		GunDymTransform.transform.SetParent (GunTransform.transform);
 		GunDym.SetParent (GunDymTransform.transform);
 
-		#region 发射动画
-		Animator FireAnimator = GunDymTransform.AddComponent<Animator> ();
+        #region Add fire animation
+        Animator FireAnimator = GunDymTransform.AddComponent<Animator> ();
         FireAnimator.runtimeAnimatorController = vehicleData.vehicleTextData.TFParameter.GymAnimation;
         #endregion
 
@@ -178,19 +173,8 @@ public class VehicleDataEditor : EditorWindowBase
         AddDumpNode("MachineGunFFPoint", TurretTransform.transform, true, referenceManager);
         AddDumpNode("CenterOfGravity", InstanceMesh.transform, true, referenceManager);
 
-
-
-        //MainHitBox.transform.parent = TankModel.transform;
-        //TurretHitBox.transform.parent = TurretTransform.transform;
-
-        //EngineSmoke.transform.parent = TankModel.transform;
-        //EngineSmoke.tag = "EngineSmoke";
-
-
-
-        //		GameObject LODMesh = new GameObject ("LODMesh");
-        //		LODMesh.transform.SetParent (TankModel.transform);
-        //		LODMesh.tag = "LODMesh";
+        referenceManager.LeftTrack = InstanceMesh.transform.Find("LeftTrack").gameObject;
+        referenceManager.RightTrack = InstanceMesh.transform.Find("RightTrack").gameObject;
 
         GameObject HitBoxInstance = Instantiate<GameObject> (vehicleData.modelData.HitBox.HitBoxPrefab);
 		HitBoxInstance.transform.Find ("Main").name = "MainHitBox";
@@ -206,7 +190,6 @@ public class VehicleDataEditor : EditorWindowBase
 		HitBoxInstance.transform.Find ("DymHitBox").SetParent (GunDymTransform.transform);
 
 		DestroyImmediate (HitBoxInstance);
-		//HitBoxInstance.transform.Find("Dym").SetParent()
 		Restore (LeftWheel.GetComponentsInChildren<Transform> ());
 		Restore (RightWheel.GetComponentsInChildren<Transform> ());
 
@@ -257,12 +240,7 @@ public class VehicleDataEditor : EditorWindowBase
 
 		string Path = "Assets/res/Cooked/" + CurrentAssetName.ToLower ();
 //
-//		//System.IO.DirectoryInfo folder = new System.IO.DirectoryInfo ("Assets/Resources/ExtraPackage/TankModel/" + CurrentAssetName);
-//		if (!folder.Exists)
-//			folder.Create ();
 
-
-		//PrefabUtility.CreatePrefab (Path + "_PreBak.prefab", ((TankInitSystem)target).gameObject);
 
 		GameObject Prefab = tankInitSystem.transform.GetChild (0).gameObject;
 

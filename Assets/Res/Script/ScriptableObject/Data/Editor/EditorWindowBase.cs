@@ -9,13 +9,13 @@ public class EditorWindowBase : Editor {
 	public void BaseGUI(){
 		EditorGUILayout.HelpBox (EditorHeadline, MessageType.Info);
 
-		if(GUILayout.Button("查看该资源")){
+        if(GUILayout.Button("Ping Object")){
 			EditorGUIUtility.PingObject (target);
 		}
 
 		if (InEditingSceneObject) {
-			EditorGUILayout.HelpBox ("编辑模式中",MessageType.None);
-			if (GUILayout.Button ("解锁窗口")) {
+            EditorGUILayout.HelpBox ("In Editor Mode",MessageType.Warning);
+			if (GUILayout.Button ("Lock Windows")) {
 				ActiveEditorTracker.sharedTracker.isLocked = false;
 				InEditingSceneObject = false;
 			}

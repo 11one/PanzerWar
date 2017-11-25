@@ -249,7 +249,6 @@ public class TankTracksController : MonoBehaviour {
     public float leftTrackSpeed = 0.0f, rightTrackSpeed = 0.0f;
 
     public float LeftTrackRPM = 0, RightTrackRPM = 0;
-    public float EngineMaxHP = 125, EnginedesireHP = 25, EngineCurrentHP = 0, EngineIdleHP = 5, EngineRunningHP = 50;
 
     private int wheelsCount = 0;
 
@@ -267,32 +266,25 @@ public class TankTracksController : MonoBehaviour {
     //Control
 
 
-    Vector3 GetTrackCenter(GameObject Track) {
-        MeshRenderer mr = Track.GetComponent<MeshRenderer>();
-        SkinnedMeshRenderer smr = Track.GetComponent<SkinnedMeshRenderer>();
-        if (mr != null)
-            return mr.bounds.center;
-
-
-        if (smr != null)
-            return smr.bounds.center;
-
-        return Vector3.zero;
-    }
-
     public bool Visible = true;
     public bool TrackVisible = true;
 
     public bool isBot = false;
 
-    RCCWheelSkidmarks LeftTail, RightTail;
-    bool UseTail = false;
+    private WheelSkidmarks leftWheelSkidmarks, rightWheelSkidmarks;
+
+    private bool isUsingWheelSkidmarks = false;
+
+    public Rigidbody rigidBody;
+
+    public float maxAngularVelocity = 35;
+
+    public int MaxSpeed = 100, MinSpeed = -20;
+
+    private float t = 0;
 
 
-
-
-
-    public void SetWheels(bool usePhysicModel, bool Client, bool _UseTrackTail) {
+    public void SetWheels(bool usePhysicModel, bool Client, bool _isUsingWheelSkidmarks) {
         colliderFromPrefab = wheelCollider.GetComponent<WheelCollider>();
 
         wheelsCount = leftTrackWheels.Length + rightTrackWheels.Length;
@@ -325,32 +317,27 @@ public class TankTracksController : MonoBehaviour {
         transform.position = offset;
         SetupAxis();
 
-        //Set Wheel Marks
-        if (_UseTrackTail) {
+        if (_isUsingWheelSkidmarks) {
             GameObject LeftTailObj = new GameObject("Track");
             LeftTailObj.transform.SetParent(leftTrackWheels[leftTrackWheels.Length - 1].transform);
             LeftTailObj.transform.localPosition = Vector3.zero;
             LeftTailObj.transform.position -= new Vector3(0, wheelCollider.GetComponent<WheelCollider>().radius, 0);
             LeftTailObj.transform.SetParent(LeftTailObj.transform.parent.parent);
-            LeftTail = LeftTailObj.AddComponent<RCCWheelSkidmarks>();
+            leftWheelSkidmarks = LeftTailObj.AddComponent<WheelSkidmarks>();
 
             GameObject RightTailObj = new GameObject("Track");
             RightTailObj.transform.SetParent(rightTrackWheels[rightTrackWheels.Length - 1].transform);
             RightTailObj.transform.localPosition = Vector3.zero;
             RightTailObj.transform.position -= new Vector3(0, wheelCollider.GetComponent<WheelCollider>().radius, 0);
             RightTailObj.transform.SetParent(RightTailObj.transform.parent.parent);
-            RightTail = RightTailObj.AddComponent<RCCWheelSkidmarks>();
+            rightWheelSkidmarks = RightTailObj.AddComponent<WheelSkidmarks>();
 
-            UseTail = true;
+            isUsingWheelSkidmarks = true;
         }
     }
 
  
-    public Rigidbody rigidBody;
 
-    public float maxAngularVelocity = 35;
-
-    public int MaxSpeed = 100, MinSpeed = -20;
 
     public virtual void Start() {
         if (!autoCOM)
@@ -655,7 +642,9 @@ public class TankTracksController : MonoBehaviour {
         LeftTrackRPM = TrackRPM(leftTrackWheelData);
         RightTrackRPM = TrackRPM(leftTrackWheelData);
 
-        rfrd = TrackUpdate(accel, steer, leftTrackWheelData, leftTrack, 1, ref leftTrackTextureOffset, leftTrackUpperWD, ref leftTrackMiddleRPM);
+        t += Time.fixedDeltaTime;
+
+        rfrd = TrackUpdate(accel, steer, leftTrackWheelData, leftTrack, 1, ref leftTrackTextureOffset, leftTrackUpperWD,ref leftTrackMiddleRPM);
         rfrd += TrackUpdate(accel, -steer, rightTrackWheelData, rightTrack, -1, ref rightTrackTextureOffset, rightTrackUpperWD, ref rightTrackMiddleRPM);
 
         rotationVector.y = steer * rfrd.rotationForce;
@@ -672,7 +661,6 @@ public class TankTracksController : MonoBehaviour {
 
 
     private RFRD TrackUpdate(float accel, float steer, WheelDataExt[] WD, GameObject track, int RotateDir, ref Vector2 trackTextureOffset, WheelData[] upperWheels, ref float middleRPM) {
-
         RFRD rfrd = new RFRD();
         float delta = Time.fixedDeltaTime;
 
@@ -686,17 +674,17 @@ public class TankTracksController : MonoBehaviour {
         if (wheelsAndBonesAxisSettings.inverseWheelsRotation)
             RPMtoDeg *= -1.0f;
 
-        if (UseTail) {
+        if (isUsingWheelSkidmarks) {
             if (RotateDir > 0) {
-                LeftTail.gameObject.SetActive(WD[0].col.isGrounded);
+                leftWheelSkidmarks.gameObject.SetActive(WD[0].col.isGrounded);
                 if (!WD[0].col.isGrounded) {
-                    LeftTail.lastSkidmark = -1;
+                    leftWheelSkidmarks.lastSkidmark = -1;
                 }
             }
             else {
-                RightTail.gameObject.SetActive(WD[0].col.isGrounded);
+                rightWheelSkidmarks.gameObject.SetActive(WD[0].col.isGrounded);
                 if (!WD[0].col.isGrounded) {
-                    RightTail.lastSkidmark = -1;
+                    rightWheelSkidmarks.lastSkidmark = -1;
                 }
             }
         }
@@ -709,6 +697,11 @@ public class TankTracksController : MonoBehaviour {
         for (int i = 0; i < upperWheels.Length; i++) {
             upperWheels[i].wheelRotationAngles[wheelsAndBonesAxisSettings.WRAxisPointer] = Mathf.Repeat(upperWheels[i].wheelRotationAngles[wheelsAndBonesAxisSettings.WRAxisPointer] + RPMtoDeg, 360.0f);
             upperWheels[i].wheelTransform.localEulerAngles = upperWheels[i].wheelRotationAngles;
+        }
+       
+        if(track!=null){
+            trackTextureOffset += new Vector2(0, RPMtoDeg * delta);
+            track.GetComponent<MeshRenderer>().material.mainTextureOffset = trackTextureOffset;
         }
         return rfrd;
 
