@@ -27,10 +27,13 @@ An open source tank game made by Unity3D game engine.
 **Then you can run the game from scene "StartUp"
 **
 
+## WIKI Reference
+>[WIKI](https://github.com/Doreamonsky/PanzerWar/wiki)
+
 ## API Reference
 Not ready yet.
 
 ## Contributors
-[Wang [Doreamonsky]](http://https://vk.com/doreamonsky "Wang [Doreamonsky]")
+[Wang [Doreamonsky]](http://vk.com/doreamonsky "Wang [Doreamonsky]")
 
 [Kovalenko Vlad](https://vk.com/iso_slacker_yt "Kovalenko Vlad")
