@@ -27,7 +27,7 @@ public class VehicleDataEditor : EditorWindowBase
         base.ShortCut();
         GameObject active = Selection.activeGameObject;
         var e = Event.current;
-        if (e.keyCode == KeyCode.C) {
+        if (e.keyCode == KeyCode.K) {
             if (active != null) {
                 Vector3 P0 = active.transform.localPosition;
                 Vector3 E0 = active.transform.localEulerAngles;
@@ -56,7 +56,10 @@ public class VehicleDataEditor : EditorWindowBase
 
 		BaseGUI ();
 
-        EditorGUILayout.HelpBox("Press Key [C] to save the position and location of the dump to the cache",MessageType.Info);
+        if(InEditingSceneObject){
+            EditorGUILayout.HelpBox("Press Key [K] to save the position and rotation of the selected dump to the cache", MessageType.Error);
+        }
+
 		if (GUILayout.Button ("Open Edit Mode")) {
 			LockEditor ();
 			OpenEditorScene ();

@@ -15,7 +15,7 @@ public class EditorWindowBase : Editor {
 
 		if (InEditingSceneObject) {
             EditorGUILayout.HelpBox ("In Editor Mode",MessageType.Warning);
-			if (GUILayout.Button ("Lock Windows")) {
+			if (GUILayout.Button ("Unlock Inspector")) {
 				ActiveEditorTracker.sharedTracker.isLocked = false;
 				InEditingSceneObject = false;
 			}
