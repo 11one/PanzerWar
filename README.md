@@ -17,7 +17,7 @@ An open source tank game made by Unity3D game engine.
  
 
 ## Installation 
-> Git Clone https://github.com/Doreamonsky/PanzerWar.git
+> Fork and clone from your repository！
 
 **Then open the project with Unity3D (Unity 2017.x)
 **
