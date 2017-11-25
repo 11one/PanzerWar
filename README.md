@@ -1,6 +1,6 @@
 # Synopsis 
 An open source tank game made by Unity3D game engine.
-![](https://github.com/Doreamonsky/Markdown/blob/master/Screenshot.jpg)
+![screenshot](https://github.com/Doreamonsky/Markdown/blob/master/Screenshot.jpg?raw=true)
 
 [![license](http://img.shields.io/badge/license-MIT-blue.svg)]()
 
