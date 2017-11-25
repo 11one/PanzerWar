@@ -1,18 +1,18 @@
 #Synopsis 
 A open source tank game made by Unity3D game engine.
-![](https://ws1.sinaimg.cn/large/c2b659a1gy1flu9yb34sbj21hc0xcu0y.jpg)
-#Installation 
 
-#API Reference
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)]()
+
+##Installation 
+Open menu Tools/ShanghaiWindy/Build/SceneBuilder 
+Switch platform to your building target
+Click Relaod Cooked Scene Data
+Click Label Assets 
+Click Build Sub-Assets
+##API Reference
+Not ready yet.
+##Contributors
+Doreamonsky
 
 
-
-#Tests 
-
-
-#Contributors
-
-
-
-#License
 
