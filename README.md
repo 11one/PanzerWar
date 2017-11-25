@@ -17,6 +17,7 @@ An open source tank game made by Unity3D game engine.
 
 **Then open the project with Unity3D (Unity 2017.x)
 **
+
 1. Open menu Tools/ShanghaiWindy/Build/SceneBuilder .
 2. Switch platform to your building target.
 3. Click Relaod Cooked Scene Data.
@@ -31,4 +32,5 @@ Not ready yet.
 
 ## Contributors
 [Wang [Doreamonsky]](http://https://vk.com/doreamonsky "Wang [Doreamonsky]")
+
 [Kovalenko Vlad](https://vk.com/iso_slacker_yt "Kovalenko Vlad")
